@@ -16,7 +16,7 @@
   }
 
   p {
-    @apply text-neutral-700 dark:text-neutral-400 mb-4;
+    @apply text-neutral-300;
   }
 
   a {

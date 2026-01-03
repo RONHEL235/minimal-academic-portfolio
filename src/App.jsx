@@ -11,9 +11,10 @@ import Writings from "./pages/Writings";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-gray-100">
+      <div className="min-h-screen bg-neutral-950 text-neutral-100">
         <Navbar />
-        <main className="max-w-5xl mx-auto px-4 py-10">
+
+        <main className="max-w-5xl mx-auto px-4 py-16 space-y-16">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cv" element={<CV />} />
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/writings" element={<Writings />} />
           </Routes>
         </main>
+
         <Footer />
       </div>
     </BrowserRouter>
