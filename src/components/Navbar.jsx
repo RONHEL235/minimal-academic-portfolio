@@ -19,9 +19,9 @@ export default function Navbar() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             {/* NAME */}
-            <div className="text-neutral-400 font-medium">
+            <div className="text-1xl font-semibold text-neutral-200">
               Ronee Helepi{" "}
-              <span className="text-neutral-500">| iswriter</span>
+              <span className="text-neutral-500">| isawriter</span>
             </div>
 
             {/* DESKTOP */}
