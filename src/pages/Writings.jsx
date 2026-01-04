@@ -1,3 +1,5 @@
+import { ExternalLink } from "lucide-react";
+
 export default function Writings() {
   return (
     <div className="space-y-16">
@@ -17,19 +19,23 @@ export default function Writings() {
 
       {/* RESEARCH */}
       <section className="space-y-12">
-        <h2 className="text-xl font-medium text-neutral-200">
-          Research
-        </h2>
+        <h2 className="text-xl font-medium text-neutral-200">Research</h2>
 
         {/* ITEM */}
         <article className="space-y-3">
-          <p className="text-sm text-neutral-500">
-            December 14, 2025
-          </p>
+          <p className="text-sm text-neutral-500">December 14, 2025</p>
 
           <h3 className="text-lg font-medium text-neutral-200">
-            RetroCast and SynthArena: building the infrastructure for the next
-            breakthrough in chemistry
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 no-underline hover:underline"
+            >
+              RetroCast and SynthArena: building the infrastructure for the next
+              breakthrough in chemistry
+              <ExternalLink size={16} className="text-neutral-500" />
+            </a>
           </h3>
 
           <p className="text-neutral-400 max-w-3xl">
@@ -60,7 +66,15 @@ export default function Writings() {
           </p>
 
           <h3 className="text-lg font-medium text-neutral-200">
-            Upsampling the Signal: Active Learning with Proxy Spaces
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 no-underline hover:underline"
+            >
+              Upsampling the Signal: Active Learning with Proxy Spaces
+              <ExternalLink size={16} className="text-neutral-500" />
+            </a>
           </h3>
 
           <p className="text-neutral-400 max-w-3xl">
@@ -89,7 +103,15 @@ export default function Writings() {
           </p>
 
           <h3 className="text-lg font-medium text-neutral-200">
-            Getting Coupled-Cluster Accuracy for the Price of MP2
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 no-underline hover:underline"
+            >
+              Getting Coupled-Cluster Accuracy for the Price of MP2
+              <ExternalLink size={16} className="text-neutral-500" />
+            </a>
           </h3>
 
           <p className="text-neutral-400 max-w-3xl">
@@ -117,17 +139,21 @@ export default function Writings() {
 
       {/* LONG FORM */}
       <section className="space-y-12">
-        <h2 className="text-xl font-medium text-neutral-200">
-          Long Form
-        </h2>
+        <h2 className="text-xl font-medium text-neutral-200">Long Form</h2>
 
         <article className="space-y-3">
-          <p className="text-sm text-neutral-500">
-            January 1, 2026
-          </p>
+          <p className="text-sm text-neutral-500">January 1, 2026</p>
 
           <h3 className="text-lg font-medium text-neutral-200">
-            Vibe coding killed Cursor
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 no-underline hover:underline"
+            >
+              Vibe coding killed Cursor
+              <ExternalLink size={16} className="text-neutral-500" />
+            </a>
           </h3>
 
           <p className="text-neutral-400 max-w-3xl">
@@ -150,12 +176,18 @@ export default function Writings() {
         </article>
 
         <article className="space-y-3">
-          <p className="text-sm text-neutral-500">
-            December 13, 2025
-          </p>
+          <p className="text-sm text-neutral-500">December 13, 2025</p>
 
           <h3 className="text-lg font-medium text-neutral-200">
-            AI will transform science. Just not the way you think.
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 no-underline hover:underline"
+            >
+              AI will transform science. Just not the way you think.
+              <ExternalLink size={16} className="text-neutral-500" />
+            </a>
           </h3>
 
           <p className="text-neutral-400 max-w-3xl">
@@ -177,12 +209,18 @@ export default function Writings() {
         </article>
 
         <article className="space-y-3">
-          <p className="text-sm text-neutral-500">
-            October 2, 2023
-          </p>
+          <p className="text-sm text-neutral-500">October 2, 2023</p>
 
           <h3 className="text-lg font-medium text-neutral-200">
-            How Oppenheimer saved chemistry from quantum mechanics?
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 no-underline hover:underline"
+            >
+              How Oppenheimer saved chemistry from quantum mechanics?
+              <ExternalLink size={16} className="text-neutral-500" />
+            </a>
           </h3>
 
           <p className="text-neutral-400 max-w-3xl">
