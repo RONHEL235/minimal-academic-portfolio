@@ -10,10 +10,11 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 max-w-2xl text-neutral-400">
-            Researcher building and interrogating a new class of AI systems for
-            direct retrosynthesis. My work accelerates the discovery of
-            life-saving drugs and advanced materials by integrating synthetic
-            feasibility directly into high-throughput molecular screening.
+            I spend most of my time reading, writing, and learning something new
+            every day. My work sits at the intersection of literature, research,
+            and journalism, supported by a background in software engineering
+            that helps me build systems for organizing ideas, publishing work,
+            and thinking clearly in a digital world.
           </p>
         </div>
 
@@ -32,70 +33,66 @@ export default function Home() {
           My Approach
         </h2>
         <p className="mt-4 max-w-3xl text-neutral-400">
-          I operate on a simple principle: a discovery is only as valuable as its
-          ability to be used, scaled, and built upon. My research focuses on
-          creating new AI models that address core bottlenecks in science, like
-          quantifying the synthetic feasibility of computer-generated molecules.
-          But a model is not a tool until it is in the hands of a chemist, so I
-          engineer and deploy my work as robust, full-stack applications.
-          Finally, progress compounds when knowledge is made durable. Through
-          pedagogy and system-building, I work to ensure today’s frontier becomes
-          tomorrow’s reliable foundation.
+          Whether I am engaging with literature, academic research, or
+          current affairs, my focus is on clarity, context, and continuity.
+          Research, to me, is an act of careful synthesis: connecting ideas
+          across disciplines and time. Software engineering and modern tools,
+          including AI, play a quiet but important role in this process by
+          helping me build workflows for reading, annotation, versioning, and
+          publication, while keeping interpretation and judgment firmly human.
         </p>
       </section>
 
       {/* DIVIDER */}
       <div className="border-t border-neutral-700" />
 
-      {/* CORE RESEARCH */}
+      {/* CORE FOCUS AREAS */}
       <section>
         <h2 className="font-medium text-neutral-300">
-          Core Research Initiatives
+          Core Focus Areas
         </h2>
 
         <ul className="mt-6 space-y-8 text-neutral-400">
           <li>
             <div className="font-medium text-neutral-300">
-              Direct Multistep Retrosynthesis
+              Books & Literature
             </div>
-            <div className="text-sm text-neutral-500">In Progress</div>
             <p className="mt-2 max-w-3xl">
-              Developing models that generate entire synthesis routes as
-              coherent sequences, avoiding the cascading errors of traditional
-              iterative methods.
+              Close reading of fiction and non-fiction, with attention to
+              narrative structure, language, and the historical and social
+              contexts in which texts are written and read.
             </p>
           </li>
 
           <li>
             <div className="font-medium text-neutral-300">
-              Active Learning for Drug Discovery
+              Research & Knowledge Synthesis
             </div>
             <p className="mt-2 max-w-3xl">
-              Designing AI strategies that strategically explore chemical space
-              to find novel drug candidates, validated by reproducing known
-              FDA-approved drugs.
+              Working through academic literature and long-form writing to
+              extract core arguments, identify gaps, and connect insights across
+              fields.
             </p>
           </li>
 
           <li>
             <div className="font-medium text-neutral-300">
-              Efficient Quantum Prediction Methods
+              Journalism & Essay Writing
             </div>
             <p className="mt-2 max-w-3xl">
-              Creating composite methods to predict quantum properties with
-              gold-standard accuracy at a fraction of the computational cost.
+              Writing clear, grounded pieces that translate complex ideas into
+              accessible language without sacrificing nuance or depth.
             </p>
           </li>
 
           <li>
             <div className="font-medium text-neutral-300">
-              Mechanistic Interrogation of AI Models
+              Software & Tools for Thinking
             </div>
-            <div className="text-sm text-neutral-500">In Progress</div>
             <p className="mt-2 max-w-3xl">
-              Investigating the internal reasoning of chemistry AI to enhance
-              transparency, reliability, and the industrial trust needed for
-              real-world adoption.
+              Designing and using software systems to support reading,
+              note-taking, research organization, and publishing, with a
+              pragmatic and minimalist engineering mindset.
             </p>
           </li>
         </ul>
@@ -104,28 +101,50 @@ export default function Home() {
       {/* DIVIDER */}
       <div className="border-t border-neutral-700" />
 
-      {/* NEWS */}
+      {/* RECENT ACTIVITY */}
       <section>
         <h2 className="font-medium text-neutral-300">
-          In the News
+          Recent Activity
         </h2>
 
         <ul className="mt-6 space-y-4 text-neutral-400">
           <li>
             <div className="text-neutral-300">
-              Yale Chemists Go Retro with New AI-Based Model
+              Reading and annotating works across literature, history, and
+              contemporary research
             </div>
             <div className="text-sm text-neutral-500">
-              Yale Department of Chemistry · July 23, 2025
+              Independent study · Ongoing
             </div>
           </li>
 
           <li>
             <div className="text-neutral-300">
-              Pregnancy, evolution, AI in chemistry, and quicker gene tests
+              Writing analytical notes and short essays on books and current
+              affairs
             </div>
             <div className="text-sm text-neutral-500">
-              Yale News · July 15, 2025
+              Independent writing · Ongoing
+            </div>
+          </li>
+
+          <li>
+            <div className="text-neutral-300">
+              Building small software tools to support reading, note-taking, and
+              content organization
+            </div>
+            <div className="text-sm text-neutral-500">
+              Personal projects · Ongoing
+            </div>
+          </li>
+
+          <li>
+            <div className="text-neutral-300">
+              Experimenting with AI-assisted workflows for research and writing,
+              with a critical and human-centered approach
+            </div>
+            <div className="text-sm text-neutral-500">
+              Exploratory work · Ongoing
             </div>
           </li>
         </ul>
