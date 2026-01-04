@@ -1,20 +1,4 @@
 export default function Writings() {
-  const tags = [
-    "All",
-    "AI",
-    "ML",
-    "drug-design",
-    "electronic-structure",
-    "evals",
-    "explanatory",
-    "generative-models",
-    "infrastructure",
-    "opinion",
-    "quantum-chemistry",
-    "research",
-    "retrosynthesis",
-  ];
-
   return (
     <div className="space-y-16">
       {/* HEADER */}
@@ -26,23 +10,6 @@ export default function Writings() {
           Summaries of my academic work, long-form articles, tutorials, and
           miscellaneous notes. Filterable by topic.
         </p>
-      </section>
-
-      {/* FILTER */}
-      <section>
-        <p className="text-sm text-neutral-500 mb-3">
-          Filter by Tag
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <span
-              key={tag}
-              className="px-3 py-1 text-sm border border-neutral-700 rounded-md text-neutral-400 cursor-default"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
       </section>
 
       {/* DIVIDER */}

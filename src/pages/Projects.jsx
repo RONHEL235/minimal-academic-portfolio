@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Projects() {
   return (
     <div className="space-y-16">
@@ -16,48 +18,72 @@ export default function Projects() {
       <div className="border-t border-neutral-700" />
 
       {/* PROJECT LIST */}
-      <section className="space-y-20">
+      <section className="space-y-12">
         {[...Array(4)].map((_, index) => (
-          <div
+          <Link
             key={index}
-            className="flex flex-col md:flex-row gap-8"
+            to={`/projects/project-${index + 1}`}
+            className="
+              block
+              no-underline
+              hover:no-underline
+              focus:no-underline
+              active:no-underline
+            "
           >
-            {/* IMAGE PLACEHOLDER */}
-            <div className="w-full md:w-64 h-40 border border-neutral-700 bg-neutral-900 flex items-center justify-center text-neutral-600 text-sm shrink-0">
-              Project Preview
-            </div>
+            <div
+              className="
+                flex flex-col md:flex-row gap-8
+                p-4 md:p-6
+                rounded-lg
+                border border-neutral-800
+                hover:border-neutral-600
+                hover:bg-neutral-900/60
+                transition
+              "
+            >
+              {/* IMAGE PLACEHOLDER */}
+              <div className="w-full md:w-64 h-40 border border-neutral-700 bg-neutral-900 flex items-center justify-center text-neutral-600 text-sm shrink-0">
+                Project Preview
+              </div>
 
-            {/* CONTENT */}
-            <div className="flex-1 space-y-4">
-              <h2 className="text-xl font-medium text-neutral-200">
-                Project Title {index + 1}
-              </h2>
+              {/* CONTENT */}
+              <div className="flex-1 space-y-4">
+                <h2 className="text-xl font-medium text-neutral-200">
+                  Project Title {index + 1}
+                </h2>
 
-              <p className="max-w-2xl text-neutral-400">
-                A short description of the project goes here. This project
-                demonstrates applied software engineering principles, clean
-                architecture, and practical problem-solving through code.
-              </p>
+                <p className="max-w-2xl text-neutral-400">
+                  A short description of the project goes here. This project
+                  demonstrates applied software engineering principles, clean
+                  architecture, and practical problem-solving through code.
+                </p>
 
-              {/* TECH STACK */}
-              <div className="flex flex-wrap gap-2 pt-2">
-                {[
-                  "React",
-                  "Next.js",
-                  "Tailwind CSS",
-                  "Node.js",
-                  "PostgreSQL",
-                ].map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-3 py-1 text-sm border border-neutral-700 rounded-md text-neutral-400"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                {/* TECH STACK */}
+                <div className="flex flex-wrap gap-2 pt-2">
+                  {[
+                    "React",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Node.js",
+                    "PostgreSQL",
+                  ].map((tech) => (
+                    <span
+                      key={tech}
+                      className="
+                        px-3 py-1 text-sm
+                        border border-neutral-700
+                        rounded-md
+                        text-neutral-400
+                      "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </section>
     </div>

@@ -8,13 +8,7 @@ export default function CV() {
         </h1>
 
         <p className="mt-4 max-w-3xl text-neutral-400">
-          Avid learner, writer, and software engineering student with a strong
-          interest in building thoughtful, user-centric digital systems. My work
-          sits at the intersection of software development, data analysis, and
-          applied machine learning, with a focus on clarity, usability, and
-          problem-solving. I am particularly drawn to learning-driven
-          environments where technology supports research, storytelling, and
-          informed decision-making.
+          Avid reader, writer, and lifelong learner with a strong focus on literature, research, and journalism. My work is driven by careful reading, synthesis of ideas, and clear communication across disciplines. Alongside this, I have a background in software engineering, which I use pragmatically to build systems that support research, writing, knowledge organization, and digital publishing. I value clarity, context, and continuity in both intellectual work and the tools that enable it.
         </p>
 
         {/* LINKS */}
@@ -58,7 +52,7 @@ export default function CV() {
               BSc Geomatics (Geographical Information Systems)
             </div>
             <div className="text-sm text-neutral-500">
-              University of Cape Town · February 2019 – Partially Completed
+              University of Cape Town – Partially Completed
             </div>
           </li>
 
@@ -67,7 +61,7 @@ export default function CV() {
               National Senior Certificate
             </div>
             <div className="text-sm text-neutral-500">
-              Setjhaba Se Maketse Combined School · 2007 – 2018
+              Setjhaba Se Maketse Combined School
             </div>
           </li>
         </ul>
@@ -150,7 +144,10 @@ export default function CV() {
               SRC – Clubs and Societies Portfolio
             </div>
             <div className="text-sm text-neutral-500">
-              Student Representative Council · 2024
+              Eduvos University
+            </div>
+            <div className="text-sm text-neutral-500">
+              Student Representative Council · 2025
             </div>
           </li>
 
@@ -159,7 +156,10 @@ export default function CV() {
               Golden Key International Honour Society
             </div>
             <div className="text-sm text-neutral-500">
-              Member · 2025
+              Eduvos University
+            </div>
+            <div className="text-sm text-neutral-500">
+              Member · 2024
             </div>
           </li>
         </ul>
@@ -224,7 +224,10 @@ export default function CV() {
             Star Performer Badge – AI Data Analyst Internship · Excelerate, 2024
           </li>
           <li>
-            Golden Key Society Membership · 2025
+            Golden Key Society Membership · 2024
+          </li>
+          <li>
+            Eduvos Bloemfontein Campus Top 10 Student · 2024
           </li>
         </ul>
       </section>
