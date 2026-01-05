@@ -227,7 +227,7 @@ export default function CV() {
             Golden Key Society Membership · 2024
           </li>
           <li>
-            Eduvos Bloemfontein Campus Top 10 Student · 2024
+            Top 10 Student Eduvos Bloemfontein Campus · 2024
           </li>
         </ul>
       </section>
