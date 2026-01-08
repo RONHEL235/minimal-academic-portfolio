@@ -20,7 +20,7 @@ export default function Home() {
 
         {/* PROFILE IMAGE PLACEHOLDER */}
         <div className="w-36 h-36 border border-neutral-700 bg-neutral-900 flex items-center justify-center text-neutral-600 text-sm">
-          Ronee Helepi
+          Ronee Helepi smiling.
         </div>
       </section>
 

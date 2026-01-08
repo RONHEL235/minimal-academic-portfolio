@@ -8,7 +8,7 @@ export default function CV() {
         </h1>
 
         <p className="mt-4 max-w-3xl text-neutral-400">
-          Avid reader, writer, and lifelong learner with a strong focus on literature, research, and journalism. My work is driven by careful reading, synthesis of ideas, and clear communication across disciplines. Alongside this, I have a background in software engineering, which I use pragmatically to build systems that support research, writing, knowledge organization, and digital publishing. I value clarity, context, and continuity in both intellectual work and the tools that enable it.
+          Avid reader, writer, and lifelong learner focused on literature, research, and journalism. My work centers on careful reading, synthesis of ideas, and clear communication across disciplines, supported by a pragmatic software engineering background used to build tools for research, writing, knowledge organization, and digital publishing.
         </p>
 
         {/* LINKS */}
@@ -34,7 +34,7 @@ export default function CV() {
               BSc IT (Software Engineering Specialization) – NQF 7
             </div>
             <div className="text-sm text-neutral-500">
-              Eduvos · February 2024 – November 2026
+              Eduvos University · February 2024 – November 2026
             </div>
           </li>
 
@@ -43,7 +43,7 @@ export default function CV() {
               Higher Certificate in Software Development – NQF 5
             </div>
             <div className="text-sm text-neutral-500">
-              CodeSpace Academy · January 2023 – June 2023
+              CodeSpace Academy · January 2023 – November 2023
             </div>
           </li>
 
@@ -221,13 +221,16 @@ export default function CV() {
 
         <ul className="mt-6 space-y-4 text-neutral-400">
           <li>
+            Golden Key Society Membership · 2025
+          </li>
+          <li>
             Star Performer Badge – AI Data Analyst Internship · Excelerate, 2024
           </li>
           <li>
             Golden Key Society Membership · 2024
           </li>
           <li>
-            Top 10 Student Eduvos Bloemfontein Campus · 2024
+            Top 10 Academic Acheiver Bloemfontein Campus · 2024
           </li>
         </ul>
       </section>
