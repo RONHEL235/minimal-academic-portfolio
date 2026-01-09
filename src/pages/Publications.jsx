@@ -3,10 +3,10 @@ export default function Publications() {
     <div className="space-y-16">
       {/* HEADER */}
       <section>
-        <h1 className="text-2xl font-semibold text-neutral-200">
+        <h1 className="text-2xl font-semibold text-neutral-700 dark:text-neutral-200">
           Publications
         </h1>
-        <p className="mt-4 max-w-2xl text-neutral-400">
+        <p className="mt-4 max-w-2xl font-semibold text-neutral-700 dark:text-neutral-400">
           A canonical list of my academic assignments, research-style reports,
           and software projects completed over the past two years at university.
           This page serves as a structured record of my technical and analytical
@@ -21,15 +21,15 @@ export default function Publications() {
       </section>
 
       {/* DIVIDER */}
-      <div className="border-t border-neutral-700" />
+      <div className="border-t border-neutral-300 dark:border-neutral-700"/>
 
       {/* PLACEHOLDER LIST */}
       <section className="space-y-12">
         {[...Array(10)].map((_, index) => (
           <div key={index} className="space-y-2">
             {/* TITLE */}
-            <p className="text-neutral-300">
-              <span className="font-semibold text-neutral-200">
+            <p className="font-semibold text-neutral-700 dark:text-neutral-400">
+              <span className="font-semibold text-neutral-700 dark:text-neutral-400">
                 R. Helepi
               </span>
               . “University Assignment {index + 1}: Applied Computing and
@@ -37,7 +37,7 @@ export default function Publications() {
             </p>
 
             {/* META */}
-            <p className="text-sm text-neutral-500">
+            <p className="text-sm text-neutral-600">
               Module assignment · Software Engineering · Individual project
             </p>
 
