@@ -13,17 +13,23 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 
-  bg-neutral-100/80 text-neutral-900
-  dark:bg-neutral-950/80 dark:text-neutral-100
-  backdrop-blur border-b border-neutral-300 dark:border-neutral-700">
+    <nav
+      className="
+        sticky top-0 z-50
+        bg-neutral-100/80 dark:bg-neutral-950/80
+        backdrop-blur
+        border-b border-neutral-300 dark:border-neutral-700
+      "
+    >
       <div className="w-full">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             {/* NAME */}
-            <div className="text-1xl font-semibold text-neutral-200">
+            <div className="text-base font-semibold text-neutral-700 dark:text-neutral-200">
               Ronee Helepi{" "}
-              <span className="text-neutral-500">| isawriter</span>
+              <span className="text-neutral-500 dark:text-neutral-500">
+                | isawriter
+              </span>
             </div>
 
             {/* DESKTOP */}
@@ -35,8 +41,8 @@ export default function Navbar() {
                     to={link.to}
                     className={({ isActive }) =>
                       isActive
-                        ? "font-semibold text-neutral-300"
-                        : "text-neutral-400 hover:text-neutral-300"
+                        ? "font-semibold text-neutral-900 dark:text-neutral-200"
+                        : "text-neutral-700 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-200"
                     }
                   >
                     {link.name}
@@ -46,11 +52,13 @@ export default function Navbar() {
               <ThemeToggle />
             </div>
 
-            {/* MOBILE RIGHT SIDE */}
+            {/* MOBILE */}
             <div className="md:hidden flex items-center gap-3">
               <ThemeToggle />
-              <button onClick={() => setOpen(!open)} className="text-neutral-400">
-
+              <button
+                onClick={() => setOpen(!open)}
+                className="text-neutral-700 dark:text-neutral-400"
+              >
                 <svg
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
@@ -67,7 +75,7 @@ export default function Navbar() {
 
         {/* MOBILE MENU */}
         {open && (
-          <div className="md:hidden border-t border-neutral-700">
+          <div className="md:hidden border-t border-neutral-300 dark:border-neutral-700">
             <div className="max-w-5xl mx-auto px-4 py-4 space-y-4">
               {links.map((link) => (
                 <NavLink
@@ -76,8 +84,8 @@ export default function Navbar() {
                   onClick={() => setOpen(false)}
                   className={({ isActive }) =>
                     isActive
-                      ? "block font-semibold text-neutral-300"
-                      : "block text-neutral-400"
+                      ? "block font-semibold text-neutral-900 dark:text-neutral-200"
+                      : "block text-neutral-700 dark:text-neutral-400"
                   }
                 >
                   {link.name}
@@ -90,4 +98,3 @@ export default function Navbar() {
     </nav>
   );
 }
-    
