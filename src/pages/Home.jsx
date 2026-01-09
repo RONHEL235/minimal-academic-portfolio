@@ -31,8 +31,8 @@ export default function Home() {
         <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">My Approach</h2>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           I focus on clarity, context, and continuity. Software engineering and
-          AI support this work quietly—helping me design workflows for reading,
-          annotation, versioning, and publishing—while interpretation and
+          AI support this work quietly, helping me design workflows for reading,
+          annotation, versioning, and publishing while interpretation and
           judgment remain human-led.
         </p>
       </section>

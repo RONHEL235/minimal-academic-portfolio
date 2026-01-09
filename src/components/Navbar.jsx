@@ -8,7 +8,6 @@ export default function Navbar() {
   const links = [
     { name: "Home", to: "/" },
     { name: "CV", to: "/cv" },
-    { name: "Publications", to: "/publications" },
     { name: "Projects", to: "/projects" },
     { name: "Writings", to: "/writings" },
   ];
