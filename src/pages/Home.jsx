@@ -8,7 +8,7 @@ export default function Home() {
             Ronee Helepi
           </h1>
 
-          <p className="mt-4 max-w-2xl font-semibold text-neutral-700 dark:text-neutral-400">
+          <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
             My curiosity lives
             at the intersection of literature, research, and journalism, grounded
             by a pragmatic software engineering background used to build tools
@@ -29,7 +29,7 @@ export default function Home() {
       {/* APPROACH */}
       <section>
         <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">My Approach</h2>
-        <p className="mt-4 max-w-3xl font-semibold text-neutral-700 dark:text-neutral-400">
+        <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           I focus on clarity, context, and continuity. Software engineering and
           AI support this work quietly—helping me design workflows for reading,
           annotation, versioning, and publishing—while interpretation and
@@ -43,7 +43,7 @@ export default function Home() {
       <section>
         <h2 className="font-medium text-neutral-700 dark:text-neutral-200">Core Focus Areas</h2>
 
-        <ul className="mt-6 space-y-8 text-neutral-700 dark:text-neutral-400">
+        <ul className="space-y-8 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
             ["Books & Literature", "Close reading with attention to structure, language, and historical context."],
             ["Research & Synthesis", "Extracting arguments, identifying gaps, and connecting ideas across fields."],
@@ -51,8 +51,8 @@ export default function Home() {
             ["Software & Tools", "Minimal, purpose-built systems for research, note-taking, and publishing."],
           ].map(([title, desc]) => (
             <li key={title}>
-              <div className="font-medium text-neutral-700 dark:text-neutral-400">{title}</div>
-              <p className="mt-2 max-w-3xl font-medium text-neutral-700 dark:text-neutral-400">{desc}</p>
+              <div className="mt-4 max-w-2xl font-medium text-neutral-700 dark:text-neutral-400">{title}</div>
+              <p className="mt-2 max-w-2xl text-neutral-700 dark:text-neutral-400">{desc}</p>
             </li>
           ))}
         </ul>
@@ -64,7 +64,7 @@ export default function Home() {
       <section>
         <h2 className="font-medium text-neutral-700 dark:text-neutral-200">Recent Activity</h2>
 
-        <ul className="mt-6 space-y-4 text-neutral-700 dark:text-neutral-400">
+        <ul className="space-y-6 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
             "Reading and annotating academic and literary texts",
             "Writing analytical notes and short essays",
@@ -72,8 +72,8 @@ export default function Home() {
             "Exploring AI-assisted research workflows",
           ].map((item, i) => (
             <li key={i}>
-              <div className="font-medium text-neutral-700 dark:text-neutral-400">{item}</div>
-              <div className="text-sm text-neutral-700 dark:text-neutral-400">Ongoing</div>
+              <div className="mt-4 max-w-2xl font-medium text-neutral-700 dark:text-neutral-400">{item}</div>
+              <div className="mt-2 max-w-2xl text-neutral-700 dark:text-neutral-400">Ongoing</div>
             </li>
           ))}
         </ul>

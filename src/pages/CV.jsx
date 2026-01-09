@@ -3,7 +3,7 @@ export default function CV() {
     <div className="space-y-20">
       {/* HEADER */}
       <section>
-        <h1 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-200">
+        <h1 className="text-2xl font-semibold text-neutral-700 dark:text-neutral-200">
           Ronee Helepi
         </h1>
 
@@ -15,7 +15,7 @@ export default function CV() {
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4 text-sm">
-          {["GitHub", "LinkedIn", "Portfolio", "Email"].map((item) => (
+          {["GitHub", "LinkedIn", "Email"].map((item) => (
             <a
               key={item}
               href="#"
@@ -27,11 +27,11 @@ export default function CV() {
         </div>
       </section>
 
-      <div className="border-t border-neutral-300 dark:border-neutral-700" />
+      <div className="border-t border-neutral-300 dark:border-neutral-700"/>
 
       {/* EDUCATION */}
       <section>
-        <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-200">
+        <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">
           Education
         </h2>
 
@@ -46,26 +46,26 @@ export default function CV() {
               "CodeSpace Academy · 2023",
             ],
             [
-              "BSc Geomatics (GIS)",
+              "BSc Geomatics (Geographical Information Systems)",
               "University of Cape Town · Partially Completed",
             ],
             ["National Senior Certificate", "Setjhaba Se Maketse"],
           ].map(([title, meta]) => (
             <li key={title}>
-              <div className="font-medium text-neutral-900 dark:text-neutral-300">
+              <div className="font-medium text-neutral-700 dark:text-neutral-400">
                 {title}
               </div>
-              <div className="text-sm text-neutral-500">{meta}</div>
+              <div className="text-sm text-neutral-700 dark:text-neutral-400">{meta}</div>
             </li>
           ))}
         </ul>
       </section>
 
-      <div className="border-t border-neutral-300 dark:border-neutral-700" />
+      <div className="border-t border-neutral-300 dark:border-neutral-700"/>
 
       {/* EXPERIENCE */}
       <section>
-        <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-200">
+        <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">
           Research & Professional Experience
         </h2>
 
@@ -92,11 +92,11 @@ export default function CV() {
         </div>
       </section>
 
-      <div className="border-t border-neutral-300 dark:border-neutral-700" />
+      <div className="border-t border-neutral-300 dark:border-neutral-700"/>
 
       {/* SKILLS */}
       <section>
-        <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-200">
+        <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">
           Technical Skills
         </h2>
 
@@ -114,10 +114,10 @@ export default function CV() {
 function Experience({ title, meta, items }) {
   return (
     <div>
-      <div className="font-medium text-neutral-900 dark:text-neutral-300">
+      <div className="font-medium text-neutral-700 dark:text-neutral-400">
         {title}
       </div>
-      <div className="text-sm text-neutral-500">{meta}</div>
+      <div className="text-sm text-neutral-700 dark:text-neutral-400">{meta}</div>
       <ul className="mt-3 list-disc list-inside space-y-1 text-neutral-700 dark:text-neutral-400">
         {items.map((i) => (
           <li key={i}>{i}</li>
@@ -130,7 +130,7 @@ function Experience({ title, meta, items }) {
 function Skill({ title, text }) {
   return (
     <div>
-      <div className="font-medium text-neutral-900 dark:text-neutral-300">
+      <div className="font-semibold text-neutral-700 dark:text-neutral-400">
         {title}
       </div>
       <p className="mt-1 text-neutral-700 dark:text-neutral-400">{text}</p>

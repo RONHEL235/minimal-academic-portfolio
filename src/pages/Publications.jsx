@@ -6,7 +6,7 @@ export default function Publications() {
         <h1 className="text-2xl font-semibold text-neutral-700 dark:text-neutral-200">
           Publications
         </h1>
-        <p className="mt-4 max-w-2xl font-semibold text-neutral-700 dark:text-neutral-400">
+        <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           A canonical list of my academic assignments, research-style reports,
           and software projects completed over the past two years at university.
           This page serves as a structured record of my technical and analytical
