@@ -3,249 +3,137 @@ export default function CV() {
     <div className="space-y-20">
       {/* HEADER */}
       <section>
-        <h1 className="text-2xl font-semibold text-neutral-200">
+        <h1 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-200">
           Ronee Helepi
         </h1>
 
-        <p className="mt-4 max-w-3xl text-neutral-400">
-          Avid reader, writer, and lifelong learner focused on literature, research, and journalism. My work centers on careful reading, synthesis of ideas, and clear communication across disciplines, supported by a pragmatic software engineering background used to build tools for research, writing, knowledge organization, and digital publishing.
+        <p className="mt-4 max-w-3xl text-neutral-700 dark:text-neutral-400">
+          Avid reader, writer, and lifelong learner focused on literature,
+          research, and journalism. My work centers on careful reading,
+          synthesis of ideas, and clear communication across disciplines,
+          supported by a pragmatic software engineering background.
         </p>
 
-        {/* LINKS */}
-        <div className="mt-6 flex flex-wrap gap-4 text-sm text-neutral-400">
-          <a href="#" className="hover:text-neutral-200">GitHub</a>
-          <a href="#" className="hover:text-neutral-200">LinkedIn</a>
-          <a href="#" className="hover:text-neutral-200">Portfolio</a>
-          <a href="#" className="hover:text-neutral-200">Email</a>
+        <div className="mt-6 flex flex-wrap gap-4 text-sm">
+          {["GitHub", "LinkedIn", "Portfolio", "Email"].map((item) => (
+            <a
+              key={item}
+              href="#"
+              className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-200"
+            >
+              {item}
+            </a>
+          ))}
         </div>
       </section>
 
-      <div className="border-t border-neutral-700" />
+      <div className="border-t border-neutral-300 dark:border-neutral-700" />
 
       {/* EDUCATION */}
       <section>
-        <h2 className="text-xl font-semibold text-neutral-200">
+        <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-200">
           Education
         </h2>
 
-        <ul className="mt-6 space-y-6 text-neutral-400">
-          <li>
-            <div className="font-medium text-neutral-300">
-              BSc IT (Software Engineering Specialization) – NQF 7
-            </div>
-            <div className="text-sm text-neutral-500">
-              Eduvos University · February 2024 – November 2026
-            </div>
-          </li>
-
-          <li>
-            <div className="font-medium text-neutral-300">
-              Higher Certificate in Software Development – NQF 5
-            </div>
-            <div className="text-sm text-neutral-500">
-              CodeSpace Academy · January 2023 – November 2023
-            </div>
-          </li>
-
-          <li>
-            <div className="font-medium text-neutral-300">
-              BSc Geomatics (Geographical Information Systems)
-            </div>
-            <div className="text-sm text-neutral-500">
-              University of Cape Town – Partially Completed
-            </div>
-          </li>
-
-          <li>
-            <div className="font-medium text-neutral-300">
-              National Senior Certificate
-            </div>
-            <div className="text-sm text-neutral-500">
-              Setjhaba Se Maketse Combined School
-            </div>
-          </li>
+        <ul className="mt-6 space-y-6">
+          {[
+            [
+              "BSc IT (Software Engineering Specialization)",
+              "Eduvos · 2024 – 2026",
+            ],
+            [
+              "Higher Certificate in Software Development",
+              "CodeSpace Academy · 2023",
+            ],
+            [
+              "BSc Geomatics (GIS)",
+              "University of Cape Town · Partially Completed",
+            ],
+            ["National Senior Certificate", "Setjhaba Se Maketse"],
+          ].map(([title, meta]) => (
+            <li key={title}>
+              <div className="font-medium text-neutral-900 dark:text-neutral-300">
+                {title}
+              </div>
+              <div className="text-sm text-neutral-500">{meta}</div>
+            </li>
+          ))}
         </ul>
       </section>
 
-      <div className="border-t border-neutral-700" />
+      <div className="border-t border-neutral-300 dark:border-neutral-700" />
 
       {/* EXPERIENCE */}
       <section>
-        <h2 className="text-xl font-semibold text-neutral-200">
+        <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-200">
           Research & Professional Experience
         </h2>
 
-        <div className="mt-6 space-y-10 text-neutral-400">
-          <div>
-            <div className="font-medium text-neutral-300">
-              Data Analyst Associate Intern
-            </div>
-            <div className="text-sm text-neutral-500">
-              Excelerate · Remote · December 2024 – February 2025
-            </div>
+        <div className="mt-6 space-y-10">
+          <Experience
+            title="Data Analyst Associate Intern"
+            meta="Excelerate · Remote · Dec 2024 – Feb 2025"
+            items={[
+              "Designed visual dashboards using Google Data Studio.",
+              "Translated complex datasets into decision-ready visuals.",
+              "Developed skills in data storytelling and KPI analysis.",
+            ]}
+          />
 
-            <ul className="mt-3 list-disc list-inside space-y-2 max-w-3xl">
-              <li>
-                Worked with a globally distributed team to gather requirements
-                and design visual dashboards using Google Data Studio.
-              </li>
-              <li>
-                Transformed complex datasets into clear, engaging visual
-                narratives to support leadership decision-making.
-              </li>
-              <li>
-                Gained hands-on experience in data storytelling, dashboard
-                design, and interpreting performance metrics.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <div className="font-medium text-neutral-300">
-              AI Data Analyst Intern
-            </div>
-            <div className="text-sm text-neutral-500">
-              Excelerate · Remote · October 2024 – November 2024
-            </div>
-
-            <ul className="mt-3 list-disc list-inside space-y-2 max-w-3xl">
-              <li>
-                Cleaned and preprocessed large signup datasets, handling missing
-                values and feature engineering.
-              </li>
-              <li>
-                Applied Python tools including Pandas, NumPy, TensorFlow,
-                PyTorch, and Matplotlib to analyze trends and predict student
-                churn.
-              </li>
-              <li>
-                Contributed to a final analytical report and presented a
-                recommendation prototype.
-              </li>
-              <li>
-                Awarded <span className="text-neutral-300">Star Performer Badge</span>.
-              </li>
-            </ul>
-          </div>
+          <Experience
+            title="AI Data Analyst Intern"
+            meta="Excelerate · Remote · Oct 2024 – Nov 2024"
+            items={[
+              "Cleaned and engineered features from large datasets.",
+              "Used Pandas, NumPy, TensorFlow, PyTorch for analysis.",
+              "Awarded Star Performer Badge.",
+            ]}
+          />
         </div>
       </section>
 
-      <div className="border-t border-neutral-700" />
-
-      {/* LEADERSHIP */}
-      <section>
-        <h2 className="text-xl font-semibold text-neutral-200">
-          Leadership & Initiatives
-        </h2>
-
-        <ul className="mt-6 space-y-6 text-neutral-400">
-          <li>
-            <div className="font-medium text-neutral-300">
-              SRC – Clubs and Societies Portfolio
-            </div>
-            <div className="text-sm text-neutral-500">
-              Eduvos University
-            </div>
-            <div className="text-sm text-neutral-500">
-              Student Representative Council · 2025
-            </div>
-          </li>
-
-          <li>
-            <div className="font-medium text-neutral-300">
-              Golden Key International Honour Society
-            </div>
-            <div className="text-sm text-neutral-500">
-              Eduvos University
-            </div>
-            <div className="text-sm text-neutral-500">
-              Member · 2024
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <div className="border-t border-neutral-700" />
+      <div className="border-t border-neutral-300 dark:border-neutral-700" />
 
       {/* SKILLS */}
       <section>
-        <h2 className="text-xl font-semibold text-neutral-200">
+        <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-200">
           Technical Skills
         </h2>
 
-        <div className="mt-6 grid gap-8 md:grid-cols-2 text-neutral-400">
-          <div>
-            <div className="font-medium text-neutral-300">Languages</div>
-            <p className="mt-2 text-sm">
-              Python, JavaScript (ES6+), TypeScript, SQL
-            </p>
-          </div>
-
-          <div>
-            <div className="font-medium text-neutral-300">Web Development</div>
-            <p className="mt-2 text-sm">
-              React.js, Tailwind CSS, responsive UI development, user-centric
-              interface design
-            </p>
-          </div>
-
-          <div>
-            <div className="font-medium text-neutral-300">
-              Data & Machine Learning
-            </div>
-            <p className="mt-2 text-sm">
-              Pandas, NumPy, TensorFlow, PyTorch, data cleaning, exploratory
-              analysis, basic predictive modeling
-            </p>
-          </div>
-
-          <div>
-            <div className="font-medium text-neutral-300">
-              Design & Analysis
-            </div>
-            <p className="mt-2 text-sm">
-              Dashboard design, data storytelling, translating data into
-              actionable insights
-            </p>
-          </div>
+        <div className="mt-6 grid gap-8 md:grid-cols-2 text-sm">
+          <Skill title="Languages" text="Python, JavaScript, TypeScript, SQL" />
+          <Skill title="Web" text="React, Tailwind CSS, responsive UI" />
+          <Skill title="Data & ML" text="Pandas, NumPy, PyTorch, TensorFlow" />
+          <Skill title="Analysis" text="Dashboards, data storytelling" />
         </div>
       </section>
+    </div>
+  );
+}
 
-      <div className="border-t border-neutral-700" />
+function Experience({ title, meta, items }) {
+  return (
+    <div>
+      <div className="font-medium text-neutral-900 dark:text-neutral-300">
+        {title}
+      </div>
+      <div className="text-sm text-neutral-500">{meta}</div>
+      <ul className="mt-3 list-disc list-inside space-y-1 text-neutral-700 dark:text-neutral-400">
+        {items.map((i) => (
+          <li key={i}>{i}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
-      {/* AWARDS */}
-      <section>
-        <h2 className="text-xl font-semibold text-neutral-200">
-          Awards & Recognition
-        </h2>
-
-        <ul className="mt-6 space-y-4 text-neutral-400">
-          <li>
-            Golden Key Society Membership · 2025
-          </li>
-          <li>
-            Star Performer Badge – AI Data Analyst Internship · Excelerate, 2024
-          </li>
-          <li>
-            Golden Key Society Membership · 2024
-          </li>
-          <li>
-            Top 10 Academic Acheiver Bloemfontein Campus · 2024
-          </li>
-        </ul>
-      </section>
-
-      <div className="border-t border-neutral-700" />
-
-      {/* REFERENCES */}
-      <section>
-        <h2 className="text-xl font-semibold text-neutral-200">
-          References
-        </h2>
-        <p className="mt-4 text-neutral-400">
-          Available upon request.
-        </p>
-      </section>
+function Skill({ title, text }) {
+  return (
+    <div>
+      <div className="font-medium text-neutral-900 dark:text-neutral-300">
+        {title}
+      </div>
+      <p className="mt-1 text-neutral-700 dark:text-neutral-400">{text}</p>
     </div>
   );
 }

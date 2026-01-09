@@ -14,7 +14,10 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-neutral-950/80 backdrop-blur border-b border-neutral-700">
+    <nav className="sticky top-0 z-50 
+  bg-neutral-100/80 text-neutral-900
+  dark:bg-neutral-950/80 dark:text-neutral-100
+  backdrop-blur border-b border-neutral-300 dark:border-neutral-700">
       <div className="w-full">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex items-center justify-between h-20">
@@ -45,12 +48,10 @@ export default function Navbar() {
             </div>
 
             {/* MOBILE RIGHT SIDE */}
-            <div className="md:hidden flex items-center gap-4">
+            <div className="md:hidden flex items-center gap-3">
               <ThemeToggle />
-              <button
-                onClick={() => setOpen(!open)}
-                className="text-neutral-400"
-              >
+              <button onClick={() => setOpen(!open)} className="text-neutral-400">
+
                 <svg
                   className="w-6 h-6"
                   viewBox="0 0 24 24"

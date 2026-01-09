@@ -1,11 +1,11 @@
 import { useEffect, useState, useRef } from "react";
+import { Sun, Moon } from "lucide-react";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState("dark");
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
 
-  // Apply theme safely
   const applyTheme = (mode) => {
     setTheme(mode);
     if (mode === "dark") {
@@ -16,13 +16,11 @@ export default function ThemeToggle() {
     localStorage.setItem("theme", mode);
   };
 
-  // Load theme on first mount
   useEffect(() => {
     const saved = localStorage.getItem("theme") || "dark";
     applyTheme(saved);
   }, []);
 
-  // Close dropdown on outside click
   useEffect(() => {
     const handler = (e) => {
       if (ref.current && !ref.current.contains(e.target)) {
@@ -35,26 +33,34 @@ export default function ThemeToggle() {
 
   return (
     <div ref={ref} className="relative">
-      {/* TOGGLE BUTTON */}
+      {/* Toggle button */}
       <button
         onClick={() => setOpen(!open)}
-        aria-label="Theme options"
-        className="w-8 h-8 flex items-center justify-center rounded-md border border-neutral-700 hover:bg-neutral-800 text-neutral-400"
+        aria-label="Theme toggle"
+        className="w-8 h-8 flex items-center justify-center rounded-md
+  border border-neutral-300 dark:border-neutral-700
+  bg-neutral-100 dark:bg-neutral-950
+  hover:bg-neutral-200 dark:hover:bg-neutral-800"
+
       >
-        {theme === "dark" ? "🌙" : "☀️"}
+        {theme === "dark" ? (
+          <Moon size={16} className="text-neutral-600 dark:text-neutral-400" />
+        ) : (
+          <Sun size={16} className="text-neutral-600 dark:text-neutral-400" />
+        )}
       </button>
 
-      {/* DROPDOWN */}
+      {/* Dropdown */}
       {open && (
-        <div className="absolute right-0 mt-2 w-28 rounded-md border border-neutral-700 bg-neutral-900 shadow-lg z-50">
+        <div className="absolute right-0 mt-2 w-32 rounded-md border border-neutral-700 bg-neutral-100 dark:bg-neutral-900 shadow-lg z-50">
           <button
             onClick={() => {
               applyTheme("light");
               setOpen(false);
             }}
-            className="flex items-center gap-2 w-full px-4 py-2 text-sm text-neutral-400 hover:bg-neutral-800"
+            className="flex items-center gap-2 w-full px-4 py-2 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800"
           >
-            ☀️ Light
+            <Sun size={14} /> Light
           </button>
 
           <button
@@ -62,9 +68,9 @@ export default function ThemeToggle() {
               applyTheme("dark");
               setOpen(false);
             }}
-            className="flex items-center gap-2 w-full px-4 py-2 text-sm text-neutral-400 hover:bg-neutral-800"
+            className="flex items-center gap-2 w-full px-4 py-2 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800"
           >
-            🌙 Dark
+            <Moon size={14} /> Dark
           </button>
         </div>
       )}
