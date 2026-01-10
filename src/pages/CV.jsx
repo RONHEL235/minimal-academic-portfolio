@@ -1,4 +1,19 @@
 export default function CV() {
+  const links = [
+    {
+      label: "GitHub",
+      href: "https://github.com/RONHEL235",
+    },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/ronee-helepi-a25407343/",
+    },
+    {
+      label: "Email",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=roneehelepi70@gmail.com",
+    },
+  ];
+
   return (
     <div className="space-y-20">
       {/* HEADER */}
@@ -8,23 +23,24 @@ export default function CV() {
         </h1>
 
         <p className="mt-4 max-w-3xl text-neutral-700 dark:text-neutral-400">
-          Avid reader, writer, and lifelong learner focused on literature,
-          research, and journalism. My work centers on careful reading,
-          synthesis of ideas, and clear communication across disciplines,
-          supported by a pragmatic software engineering background.
+          Avid learner, writer, and a software engineering student with
+          multifaceted skills in user-centric design thinking, software
+          development and problem-solving..
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4 text-sm">
-          {["GitHub", "LinkedIn", "Email"].map((item) => (
-            <a
-              key={item}
-              href="#"
-              className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-200"
+          {links.map(({ label, href }) => (
+        <a
+          key={label}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-200"
             >
-              {item}
-            </a>
-          ))}
-        </div>
+            {label}
+          </a>
+        ))}
+      </div>
       </section>
 
       <div className="border-t border-neutral-300 dark:border-neutral-700"/>
@@ -38,24 +54,31 @@ export default function CV() {
         <ul className="mt-6 space-y-6">
           {[
             [
-              "BSc IT (Software Engineering Specialization)",
-              "Eduvos · 2024 – 2026",
+              "BSc IT (Software Engineering Specialization) [NQF 7]",
+              "Eduvos", 
+              "February 2024 – November 2026",
             ],
             [
-              "Higher Certificate in Software Development",
-              "CodeSpace Academy · 2023",
+              "Higher Certificate in Software Development [NQF 5]",
+              "CodeSpace Academy", 
+              "January 2023 - November 2023",
             ],
             [
               "BSc Geomatics (Geographical Information Systems)",
-              "University of Cape Town · Partially Completed",
+              "University of Cape Town", 
+              "Partially Completed",
             ],
-            ["National Senior Certificate", "Setjhaba Se Maketse"],
-          ].map(([title, meta]) => (
+            [
+              "National Senior Certificate", 
+              "Setjhaba Se Maketse Combined School"
+            ],
+          ].map(([title, meta, metaDate]) => (
             <li key={title}>
               <div className="font-medium text-neutral-700 dark:text-neutral-400">
                 {title}
               </div>
               <div className="text-sm text-neutral-700 dark:text-neutral-400">{meta}</div>
+              <div className="text-sm text-neutral-700 dark:text-neutral-400">{metaDate}</div>
             </li>
           ))}
         </ul>

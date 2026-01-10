@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import CV from "./pages/cv";
 import Projects from "./pages/Projects";
 import Writings from "./pages/Writings";
+import Writing from "./pages/Writing";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/cv" element={<CV />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/writings" element={<Writings />} />
+            <Route path="/writings/:slug" element={<Writing />} />
           </Routes>
         </main>
 
