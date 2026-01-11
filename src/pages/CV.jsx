@@ -25,7 +25,7 @@ export default function CV() {
         <p className="mt-4 max-w-3xl text-neutral-700 dark:text-neutral-400">
           Avid learner, writer, and a software engineering student with
           multifaceted skills in user-centric design thinking, software
-          development and problem-solving..
+          development and problem-solving.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4 text-sm">
@@ -104,6 +104,16 @@ export default function CV() {
           />
 
           <Experience
+            title="Data Analyst Associate Intern"
+            meta="Excelerate · Remote · Dec 2024 – Feb 2025"
+            items={[
+              "Designed visual dashboards using Google Data Studio.",
+              "Translated complex datasets into decision-ready visuals.",
+              "Developed skills in data storytelling and KPI analysis.",
+            ]}
+          />
+
+          <Experience
             title="AI Data Analyst Intern"
             meta="Excelerate · Remote · Oct 2024 – Nov 2024"
             items={[
@@ -121,6 +131,17 @@ export default function CV() {
       <section>
         <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">
           Technical Skills
+        </h2>
+
+        <div className="mt-6 grid gap-8 md:grid-cols-2 text-sm">
+          <Skill title="Languages" text="Python, JavaScript, TypeScript, SQL" />
+          <Skill title="Web" text="React, Tailwind CSS, responsive UI" />
+          <Skill title="Data & ML" text="Pandas, NumPy, PyTorch, TensorFlow" />
+          <Skill title="Analysis" text="Dashboards, data storytelling" />
+        </div>
+
+        <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">
+          Soft Skills
         </h2>
 
         <div className="mt-6 grid gap-8 md:grid-cols-2 text-sm">
