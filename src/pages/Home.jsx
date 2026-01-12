@@ -66,8 +66,8 @@ export default function Home() {
 
         <ul className="space-y-6 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            "Reading and annotating academic and literary texts",
-            "Writing analytical notes and short essays",
+            "Current Read: Infinite Riches by Ben Okri",
+            "Learning about prompt engineering and ",
             "Building small research-supporting software tools",
             "Exploring AI-assisted research workflows",
           ].map((item, i) => (

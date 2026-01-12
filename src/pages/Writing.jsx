@@ -12,11 +12,6 @@ export default function Writing() {
     return <p className="text-neutral-500">Article not found.</p>;
   }
 
-  const headings = writing.content
-    .split("\n")
-    .filter((line) => line.startsWith("## "))
-    .map((line) => line.replace("## ", ""));
-
   return (
     <article className="max-w-3xl space-y-12">
       {/* BACK */}
@@ -35,29 +30,6 @@ export default function Writing() {
           {writing.title}
         </h1>
       </header>
-
-      {/* TOC */}
-      {headings.length > 1 && (
-        <aside
-        className="
-        border-l border-neutral-300 dark:border-neutral-700
-        pl-4 space-y-2
-        sticky top-28
-        self-start
-        "
-        >
-          <p className="text-sm font-medium text-neutral-600">Contents</p>
-          {headings.map((h) => (
-            <a
-              key={h}
-              href={`#${h.toLowerCase().replace(/\s+/g, "-")}`}
-              className="block text-sm text-neutral-500 hover:underline"
-            >
-              {h}
-            </a>
-          ))}
-        </aside>
-      )}
 
       {/* CONTENT */}
       <section className="prose prose-neutral dark:prose-invert max-w-none">
