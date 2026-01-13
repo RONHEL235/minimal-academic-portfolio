@@ -45,7 +45,7 @@ export default function Home() {
 
         <ul className="space-y-8 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            ["Books & Literature", "Close reading with attention to structure, language, and historical context."],
+            ["Web and Software Development", "Close reading with attention to structure, language, and historical context."],
             ["Research & Synthesis", "Extracting arguments, identifying gaps, and connecting ideas across fields."],
             ["Journalism & Essays", "Clear writing that preserves nuance while remaining accessible."],
             ["Software & Tools", "Minimal, purpose-built systems for research, note-taking, and publishing."],
