@@ -32,7 +32,13 @@ export default function Writing() {
       </header>
 
       {/* CONTENT */}
-      <section className="prose prose-neutral dark:prose-invert max-w-none">
+      <section className="
+    prose prose-neutral
+    dark:prose-invert
+    dark:prose-p:text-neutral-300
+    dark:prose-headings:text-neutral-100
+    max-w-none
+  ">
         {writing.content.split("\n\n").map((block, i) => {
           if (block.startsWith("## ")) {
             const id = block

@@ -9,7 +9,7 @@ export const writings = [
   excerpt:
     "A breakdown of why Eleven says 'Papa' the way she says it.",
   content: `
-## Stranger Things and a single word
+## Stranger Things
 
 There is a moment in Stranger Things that many viewers notice instinctively, even if they cannot immediately explain it. Eleven says the word “Papa” differently. It sounds heavier, slower, and more deliberate than when spoken by other characters. The word does not feel affectionate, but it is not entirely hostile either. It sits somewhere in between, unresolved.
 
