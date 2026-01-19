@@ -52,23 +52,59 @@ In a series filled with spectacle and monsters, this single word becomes one of 
 },
 
   {
-    slug: "vibe-coding-killed-cursor",
-    title: "Vibe coding killed Cursor",
-    date: "January 1, 2026",
-    category: "long-form",
-    venue: null,
-    tags: ["opinion", "AI"],
-    excerpt:
-      "Cursor is dying because cost-optimization forces models into tunnel vision.",
-    content: `
-## Cursor's original promise
-Cursor worked because it privileged context over cleverness.
+  slug: "thats-it-im-going-to-gamble",
+  title: "That's it, I am going to gamble",
+  date: "January 19, 2026",
+  category: "long-form",
+  venue: null,
+  tags: ["poker", "opinion", "life"],
+  excerpt:
+    "A meditation on sitting down at the poker table, buying in, and choosing uncertainty over safety.",
+  content: `
+## Buying in
+Poker begins with an oddly intimate transaction.
 
-## Why RAG agents fail
-Search-based context is always incomplete.
+You hand over real money and receive chips that feel fake until they very suddenly don’t. The dealer counts them out. The table barely notices. But something has already changed: you are now invested.
 
-## The 2026 workflow
-Large context windows, manual control, fewer abstractions.
-    `,
-  },
+Buying in is a small act of optimism. You tell yourself you’ll play tight. That you’ll observe. That you won’t do anything stupid. Everyone tells themselves this. No one truly believes it.
+
+## Learning to sit still
+The first lesson poker teaches is patience.
+
+Hands pass. Cards are folded without ceremony. You watch other people gamble badly and convince yourself you’re better because you didn’t. This is comforting and mostly false.
+
+Real poker is learning how to sit with boredom without inventing reasons to act. The table rewards restraint, then punishes it at random, just to keep you honest.
+
+## Reading people, not cards
+At some point you realise the cards matter less than the humans holding them.
+
+Someone sighs before betting. Someone else suddenly goes quiet. A third player starts talking too much, as if language itself could distract from fear. These are the real signals.
+
+Poker is an exercise in attention. The more you watch, the more you notice. The more you notice, the harder it becomes to pretend you don’t know what’s happening.
+
+## The illusion of control
+Poker pretends to be a game of skill and occasionally reminds you that it isn’t.
+
+You can do everything right and still lose. You can make a terrible call and get rewarded. Variance is not a bug — it’s the point. The game humbles certainty and mocks ego with quiet efficiency.
+
+This is why poker attracts optimists, mathematicians, and people who secretly enjoy being wrong.
+
+## When you finally gamble
+There comes a moment where caution stops being wisdom and starts being fear.
+
+You’ve read the table. You know the odds. You understand the risk. And still, your hand shakes a little as you push the chips forward. That’s not recklessness — that’s awareness.
+
+Gambling isn’t about chasing losses or proving something. It’s about accepting that not all outcomes can be controlled, only chosen.
+
+## Cashing out
+Eventually, everyone leaves the table.
+
+Some leave up. Some leave down. Most leave with a story they’ll adjust slightly when they tell it later. Poker doesn’t promise fairness. It promises honesty.
+
+You sat down. You paid attention. You took a risk.  
+That’s enough.
+
+Win or lose, the gamble was real.
+  `,
+},
 ];
