@@ -17,7 +17,6 @@ export default function App() {
         <main className="max-w-5xl mx-auto px-4 py-16 space-y-16">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cv" element={<CV />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/writings" element={<Writings />} />
             <Route path="/writings/:slug" element={<Writing />} />
