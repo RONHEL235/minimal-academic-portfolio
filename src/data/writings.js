@@ -1,110 +1,213 @@
 export const writings = [
 {
-  slug: "papa-eleven",
-  title: "Why does she say 'papa' like that?",
-  date: "January 16, 2026",
-  category: "stranger research",
+  slug: "barry-cant-swim",
+  title: "Barry Can't Swim",
+  date: "January 05, 2026",
+  category: "Good music",
   venue: null,
-  tags: ["research", "Journalism"],
+  tags: ["Sound", "Feeling"],
   excerpt:
-    "A breakdown of why Eleven says 'Papa' the way she says it.",
+    "I hope he never learns how to swim",
   content: `
-## Stranger Things
 
-There is a moment in Stranger Things that many viewers notice instinctively, even if they cannot immediately explain it. Eleven says the word “Papa” differently. It sounds heavier, slower, and more deliberate than when spoken by other characters. The word does not feel affectionate, but it is not entirely hostile either. It sits somewhere in between, unresolved.
+If you have spent any time digging through modern electronic music playlists, chances are you have stumbled across a track that made you pause whatever you were doing, nod your head slowly, and think, okay who made this. Very often, that answer is Barry Can’t Swim. Despite the name suggesting a minor aquatic problem, Barry Can’t Swim is one of the most emotionally rich and genuinely exciting electronic music artists to emerge in recent years.
 
-This is not an accident of performance or a simple accent choice. The way Eleven says “Papa” reflects how she learned language, who taught it to her, and the conditions under which it was learned.
+Barry Can’t Swim is the stage name of Joshua Mainnie, a producer from Edinburgh, Scotland. His music exists somewhere between electronic, jazz, house, and experimental sounds, but trying to lock it into a single genre misses the point completely. What makes his work special is how human it feels. In a space where electronic music can sometimes feel cold or overly precise, his tracks feel warm, playful, and full of life.
 
-## Language learned in captivity
+## A Sound That Feels Like Movement
 
-Eleven did not acquire language in a normal social environment. Her early childhood was spent almost entirely inside Hawkins Lab, isolated from peers and exposed primarily to authority figures. Language, for her, was functional before it was expressive. Words were tied to commands, evaluations, and consequences rather than comfort or play.
+One of the first things you notice about Barry Can’t Swim’s music is how fluid it feels. Tracks do not simply repeat themselves. They grow, shift, and evolve over time. Songs often begin with something simple, like a gentle piano line or a loose rhythm, and slowly build into something fuller without ever feeling crowded.
 
-“Papa” was not just a name. It was a title associated with power, approval, fear, and survival. When Dr. Brenner spoke, outcomes followed. When Eleven spoke to him, she was being assessed. Words learned under pressure often become rigid and emotionally loaded. They are not casual sounds; they are signals.
+There is a strong sense of motion in his music. It feels like it is breathing alongside you rather than playing at you. This makes his tracks perfect for long walks, late night listening, or moments when you want music that feels present without being overwhelming.
 
-This context helps explain why Eleven pronounces “Papa” so carefully. The word is handled with caution, as if the speaker is still bracing for what might come next.
+Jazz influences play a big role in shaping his sound. You hear it in the relaxed drum patterns, expressive piano melodies, and rhythms that feel almost improvised. This gives his music an easy confidence. It feels thoughtful but never stiff, intelligent but never pretentious.
 
-## Affection shaped by control
+## Emotion Without Trying Too Hard
 
-What makes Eleven’s use of “Papa” unsettling is the tension between affection and coercion. Dr. Brenner presents himself as a caregiver while exercising total control. This creates a distorted attachment. Eleven associates him with protection and harm at the same time.
+What truly sets Barry Can’t Swim apart is his ability to communicate emotion without forcing it. His tracks often feel nostalgic, hopeful, or quietly joyful, but they never demand that you feel a certain way. Instead, they leave space for your own emotions to settle in.
 
-Her pronunciation reflects this contradiction. There is no warmth in the word, but there is still recognition. She does not replace it with his name, nor does she reject it outright. Instead, she repeats it in a way that feels learned rather than chosen.
+Songs like Sunsleeper and Deadbeat Gospel show how he blends melody and rhythm to create atmosphere rather than drama. The emotion is there, but it is subtle. Nothing feels exaggerated or overproduced. The music trusts the listener, which is a rare thing.
 
-This mirrors real-world patterns in abusive or controlling environments, where familial language persists even after trust has been broken. The word remains, but its meaning fractures.
+This restraint is what makes his work so replayable. You can listen casually, or you can listen closely, and both experiences feel rewarding.
 
-## Performance as psychological storytelling
+## From Bedroom Producer to Big Stages
 
-Millie Bobby Brown’s performance reinforces this reading. The emphasis placed on “Papa” often slows scenes down, forcing the audience to notice it. The word is never thrown away casually. It is spoken as if it carries weight, memory, and risk.
+Like many artists working today, Barry Can’t Swim began producing music in a relatively low pressure environment. But his rise has been steady and well earned. Through consistent releases, memorable live performances, and support from respected labels, he has built a loyal and growing audience.
 
-As Eleven grows older and gains autonomy, her language expands, but the word “Papa” does not soften. If anything, it becomes more strained. This continuity suggests that healing does not erase early conditioning. Growth does not rewrite the word’s origin; it only changes how it is carried.
+His debut album When Will We Land? marked a major moment in his career. The album feels cohesive and intentional, while still showing range and curiosity. It does not feel like a collection of singles. It feels like a journey from start to finish, something many albums aim for but rarely achieve.
 
-## Why the word lingers
+Live performances bring the same sense of flow and authenticity found in his recordings. His sets focus on groove and connection rather than volume or spectacle. You get the feeling that he genuinely enjoys making music, and that enjoyment transfers directly to the crowd.
 
-Viewers fixate on how Eleven says “Papa” because it feels real. Many people recognize words that carry emotional residue: names, titles, or phrases shaped by difficult relationships. The discomfort is familiar, even if the context is fictional.
+## Why the Name Works
 
-Language is not neutral. How words are learned, and under what conditions, leaves lasting marks. Eleven’s speech is not broken or strange. It is precise. It reflects exactly what she has lived through.
+Barry Can’t Swim is an unusual name, but that is part of why it works so well. It is memorable, slightly humorous, and disarming. It does not try to sound mysterious or edgy. It sounds human, which fits the music perfectly.
 
-## Conclusion
+In an industry that often prioritises branding over substance, Barry Can’t Swim feels refreshingly sincere. He is not chasing trends or relying on gimmicks. He is simply making music that feels honest and enjoyable, whether you are listening closely or letting it play in the background.
 
-Eleven says “Papa” the way she does because the word was forged in isolation, control, and contradiction. It represents attachment taught without safety. The pronunciation carries memory, fear, and dependency all at once.
+Barry Can’t Swim is proof that electronic music does not have to be cold, repetitive, or soulless. His work blends technical skill with emotional depth, creating tracks that feel both accessible and meaningful. Whether you are deeply into electronic music or usually avoid the genre, his sound has a way of pulling you in and staying with you.
+  `,
+}
+,
+{
+  slug: "portico-quartet",
+  title: "Portico Quartet",
+  date: "December 20, 2025",
+  category: "Good music",
+  venue: null,
+  tags: ["Sound", "Atmosphere"],
+  excerpt:
+    "Music that feels like thinking without words",
+  content: `
 
-In a series filled with spectacle and monsters, this single word becomes one of the most human details. It quietly reminds us that trauma does not always announce itself loudly. Sometimes, it lives inside a word, and in the way it is spoken.
+Some music demands your attention. Other music quietly stays with you and changes how a moment feels without asking permission. Portico Quartet falls very comfortably into the second category. Their sound does not rush or shout. It settles in, stretches out, and gives you room to breathe.
+
+Portico Quartet are a British band formed in London, known for blending jazz, ambient music, minimalism, and electronic textures into something that feels modern but timeless at the same time. While they are often labeled as a jazz group, that description barely scratches the surface. Their music is less about genre and more about atmosphere, mood, and space.
+
+## Sound Built on Space and Patience
+
+One of the most striking things about Portico Quartet is how much silence they allow in their music. Notes are not stacked on top of each other just to fill space. Instead, each sound feels deliberate. The gaps between notes matter just as much as the notes themselves.
+
+In their earlier work, the band became closely associated with the hang, a steel percussion instrument with a soft, bell like tone. That sound became a signature element, paired with saxophone, bass, and restrained percussion. The result feels calm, reflective, and slightly hypnotic, like watching city lights blur past a window at night.
+
+Their tracks often unfold slowly, rewarding patience. Nothing explodes into a dramatic climax. Instead, the music grows subtly, almost unnoticed, until you realise you are completely absorbed.
+
+## Constant Evolution Without Losing Identity
+
+As the band developed, Portico Quartet did not stay locked into one sound. Over time, they began incorporating more electronic elements, synthesizers, and digital processing into their work. Albums like Isla and Knee Deep in the North Sea feel organic and earthy, while later releases such as Art in the Age of Automation and Terrain explore more abstract and electronic spaces.
+
+Despite these changes, their core identity remains intact. The emotional tone stays consistent. Thoughtful, slightly melancholic, and quietly beautiful. The evolution feels natural, as if the band is responding to the changing world rather than chasing trends.
+
+This ability to grow without losing their essence is one of their strongest qualities. Each album feels like a new chapter rather than a reinvention.
+
+## Music That Adapts to Your Mood
+
+Portico Quartet’s music does not tell you how to feel. It meets you where you already are. If you are calm, it deepens that calm. If you are overwhelmed, it slows everything down just enough to help you reset.
+
+Many of their tracks feel open ended. Not unfinished, but intentionally spacious. This makes the music deeply personal. The same song can feel comforting one day and introspective the next, depending on what you bring into it.
+
+There is also a strong cinematic quality to their sound. It feels like music made for inner landscapes rather than external action. Perfect for long walks, late nights, or moments where words feel unnecessary.
+
+## Live Performances and Quiet Intensity
+
+Live, Portico Quartet carries a quiet intensity that is rare. There is no over the top showmanship or forced energy. Instead, the focus is entirely on sound, texture, and connection. The band appears deeply locked into what they are creating, and that focus pulls the audience in with them.
+
+Their performances encourage listening rather than reacting. In a world full of distractions, that feels almost radical.
+
+## Why Portico Quartet Matters
+
+Portico Quartet matters because they prove that subtlety still holds power. They show that music does not need to be loud or obvious to be impactful. Their work sits comfortably between genres, appealing to jazz listeners, electronic music fans, and anyone who simply enjoys music that feels thoughtful and sincere.
+
+They create soundtracks for moments that are easy to overlook. Quiet mornings, reflective evenings, and the spaces in between.
+
+Portico Quartet makes music that does not demand attention but rewards it generously. If you let it in, it stays with you long after the last note fades.
   `,
 },
-
-  {
-  slug: "thats-it-im-going-to-gamble",
-  title: "That's it, I am going to gamble",
-  date: "January 19, 2026",
-  category: "long-form",
+{
+  slug: "catching-flies",
+  title: "Catching Flies",
+  date: "06 December, 2025",
+  category: "Good music",
   venue: null,
-  tags: ["poker", "opinion", "life"],
+  tags: ["Sound", "Mood", "Late nights"],
   excerpt:
-    "A meditation on sitting down at the poker table, buying in, and choosing uncertainty over safety.",
+    "Music that feels like a slow exhale",
   content: `
-## Buying in
-Poker begins with an oddly intimate transaction.
 
-You hand over real money and receive chips that feel fake until they very suddenly don’t. The dealer counts them out. The table barely notices. But something has already changed: you are now invested.
+Some music feels like it is designed for movement. Other music feels like it is designed for stillness. Catching Flies belongs very firmly in the second category. His sound feels like it exists for moments when the world slows down, when you are not trying to impress anyone, and when you are comfortable sitting with your own thoughts.
 
-Buying in is a small act of optimism. You tell yourself you’ll play tight. That you’ll observe. That you won’t do anything stupid. Everyone tells themselves this. No one truly believes it.
+Catching Flies is the project of British producer George King. His music blends electronic production with jazz, soul, and downtempo influences, creating tracks that feel warm, textured, and deeply introspective. It is not music that rushes toward a payoff. Instead, it unfolds patiently, trusting the listener to stay with it.
 
-## Learning to sit still
-The first lesson poker teaches is patience.
+## Sound That Lives in the Details
 
-Hands pass. Cards are folded without ceremony. You watch other people gamble badly and convince yourself you’re better because you didn’t. This is comforting and mostly false.
+One of the most striking things about Catching Flies is how detailed his music feels. Every element sounds carefully placed, but never rigid. Beats are soft and understated. Melodies drift rather than demand attention. Small textures appear and disappear, giving the tracks a sense of depth that rewards close listening.
 
-Real poker is learning how to sit with boredom without inventing reasons to act. The table rewards restraint, then punishes it at random, just to keep you honest.
+There is a strong organic quality to his work. Even when electronic elements are clearly present, the music never feels mechanical. Instruments feel lived in, slightly imperfect, and human. This balance between electronic precision and emotional looseness is what gives his sound its intimacy.
 
-## Reading people, not cards
-At some point you realise the cards matter less than the humans holding them.
+Listening to Catching Flies often feels like being wrapped in sound rather than surrounded by it. The music does not push forward aggressively. It sits with you, creating an atmosphere that feels safe, reflective, and unhurried.
 
-Someone sighs before betting. Someone else suddenly goes quiet. A third player starts talking too much, as if language itself could distract from fear. These are the real signals.
+## Emotion Without Obvious Drama
 
-Poker is an exercise in attention. The more you watch, the more you notice. The more you notice, the harder it becomes to pretend you don’t know what’s happening.
+Catching Flies excels at expressing emotion quietly. His tracks often feel nostalgic, tender, or slightly melancholic, but never heavy. There is sadness in the music at times, but it is gentle and accepting rather than overwhelming.
 
-## The illusion of control
-Poker pretends to be a game of skill and occasionally reminds you that it isn’t.
+Rather than relying on big moments or dramatic shifts, he allows emotion to build slowly through repetition, tone, and subtle changes. This makes the music feel honest. It mirrors real emotions, which are rarely sudden or explosive, but instead grow gradually over time.
 
-You can do everything right and still lose. You can make a terrible call and get rewarded. Variance is not a bug — it’s the point. The game humbles certainty and mocks ego with quiet efficiency.
+Songs like Silver Linings and Opals showcase this perfectly. They feel personal without being confessional, emotional without being theatrical. The music leaves room for your own memories to settle into it.
 
-This is why poker attracts optimists, mathematicians, and people who secretly enjoy being wrong.
+## A Soundtrack for Inner Spaces
 
-## When you finally gamble
-There comes a moment where caution stops being wisdom and starts being fear.
+Catching Flies makes music that feels ideal for in between moments. Late night walks. Long train rides. Quiet mornings before the day fully begins. His tracks feel like they belong to private spaces rather than public ones.
 
-You’ve read the table. You know the odds. You understand the risk. And still, your hand shakes a little as you push the chips forward. That’s not recklessness — that’s awareness.
+There is a cinematic quality to his work, but not in a grand or dramatic way. It feels like the soundtrack to internal reflection rather than external action. You can imagine scenes forming while listening, but they are soft and undefined, allowing your imagination to fill in the blanks.
 
-Gambling isn’t about chasing losses or proving something. It’s about accepting that not all outcomes can be controlled, only chosen.
+This makes his music incredibly adaptable. It never tells you what to feel. It simply creates an emotional environment and lets you exist within it.
 
-## Cashing out
-Eventually, everyone leaves the table.
+## Growth Without Losing Sensitivity
 
-Some leave up. Some leave down. Most leave with a story they’ll adjust slightly when they tell it later. Poker doesn’t promise fairness. It promises honesty.
+Over time, Catching Flies has expanded his sound without losing the emotional core that defines his work. Later releases feel more confident and refined, while still maintaining the softness and restraint that make his music distinctive.
 
-You sat down. You paid attention. You took a risk.  
-That’s enough.
+There is a sense that he is not trying to outgrow his earlier work, but rather deepen it. Each release feels like a natural progression, adding layers and clarity rather than abandoning what came before.
 
-Win or lose, the gamble was real.
+This consistency makes his discography feel cohesive. You can move through his work chronologically and feel a clear artistic voice guiding it all.
+
+## Why Catching Flies Works So Well
+
+Catching Flies works because he understands restraint. He knows when to pull back rather than push forward. In a musical landscape that often rewards loudness and immediacy, his willingness to be subtle feels refreshing.
+
+His music is not trying to compete for attention. It is there for the moments when you want something that feels gentle, thoughtful, and quietly beautiful.
+
+Catching Flies makes music that does not interrupt your life. It moves alongside it. And sometimes, that is exactly what you need.
+  `,
+},
+{
+  slug: "reggie",
+  title: "reggie",
+  date: "November 27, 2025",
+  category: "Good music",
+  venue: null,
+  tags: ["Sound", "Mood", "Late nights"],
+  excerpt:
+    "Music that feels like remembering something you almost forgot",
+  content: `
+
+reggie makes music that feels unfinished in the best possible way. Not messy or careless, but open. Like the track is still breathing after it starts playing. His sound feels deeply personal, almost private, as if it was never meant for large rooms or loud speakers, but for headphones and quiet moments.
+
+reggie is an independent artist whose music sits somewhere between lo fi, indie electronic, and soft alternative beats. His tracks often feel fragile and hazy, built around simple melodies, understated rhythms, and emotional restraint. There is no rush to impress. Everything feels intentionally small and close.
+
+## Soft Sound and Emotional Blur
+
+One of the defining traits of reggie’s music is how gentle it is. Beats are light, sometimes barely there. Melodies feel worn in, slightly distant, like they have been replayed too many times in a bedroom at night. The production leans into imperfections, which gives the music a sense of honesty.
+
+Tracks like sometimes and southside fade capture this perfectly. They feel nostalgic without being dramatic. Emotional without being overwhelming. The sound does not hit you all at once. It slowly settles in and stays there.
+
+There is a strong sense of blur in his music. Edges are softened. Nothing feels sharp or aggressive. This makes listening feel comforting, even when the emotion underneath feels heavy.
+
+## Emotion That Does Not Explain Itself
+
+reggie does not spell things out. His music rarely tells a clear story. Instead, it hints at feelings and lets the listener connect the dots. This ambiguity is part of what makes his work resonate so strongly.
+
+The emotion in his tracks often feels like longing or quiet sadness, but it is never framed as a problem that needs solving. It simply exists. That acceptance gives the music a reflective quality that feels very real.
+
+Listening to reggie can feel like revisiting memories you are not sure are entirely accurate, but still meaningful. The music leaves space for interpretation, which makes each listen feel slightly different.
+
+## Music for Private Spaces
+
+This is music for late nights, empty rooms, and moments when you are alone with your thoughts. reggie’s tracks feel too intimate for crowded spaces. They belong in headphones, where every small detail feels close.
+
+There is something comforting about how inward facing his music is. It does not try to connect with everyone at once. It connects deeply with a few listeners who recognise the feeling it carries.
+
+That quiet intimacy is what makes his music stick. It feels like it understands emotions that are difficult to articulate.
+
+## Growth Without Losing Fragility
+
+As reggie’s sound has developed, there is a noticeable increase in confidence, but not in loudness. Later tracks feel more refined, but they never lose the softness that defines his work. The fragility remains intact.
+
+This balance is difficult to maintain, but reggie handles it well. His music grows without becoming distant. It evolves while still feeling close.
+
+## Why reggie Works
+
+reggie works because he embraces subtlety. In a musical landscape full of bold statements and high energy moments, his willingness to stay quiet feels refreshing. His music does not ask for attention. It waits for it.
+
+These are songs that meet you where you are, especially in moments when words feel unnecessary. reggie makes music that understands emotional in between spaces. And that understanding is what makes his work feel honest and deeply human.
   `,
 },
 ];
