@@ -12,7 +12,7 @@ export default function Home() {
             My curiosity lives
             at the intersection of literature, research, and journalism, grounded
             by a pragmatic software engineering background used to build tools
-            for organizing ideas, publishing work, and thinking clearly.
+            for organizing ideas and thinking clearly.
           </p>
         </div>
 
