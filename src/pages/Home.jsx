@@ -9,10 +9,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-            My curiosity lives
-            at the intersection of literature, research, and journalism, grounded
-            by a pragmatic software engineering background used to build tools
-            for organizing ideas and thinking clearly.
+            Exploring the space between literature, research, and journalism, guided by software engineering principles that give shape to ideas and clarity to thought, letting structure and curiosity guide the way.
           </p>
         </div>
 
@@ -30,10 +27,7 @@ export default function Home() {
       <section>
         <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">My Approach</h2>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          I focus on clarity, context, and continuity. Software engineering and
-          AI support this work quietly, helping me design workflows for reading,
-          annotation, versioning, and publishing while interpretation and
-          judgment remain human-led.
+          I move through ideas with care for clarity and flow. I’m drawn to simple forms, thoughtful spaces, and the kind of work that unfolds slowly and with purpose. I value intention over excess, and I find meaning in what is left unsaid as much as in what is shown.
         </p>
       </section>
 
@@ -45,10 +39,9 @@ export default function Home() {
 
         <ul className="space-y-8 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            ["Web and Software Development", "Close reading with attention to structure, language, and historical context."],
-            ["Research & Synthesis", "Extracting arguments, identifying gaps, and connecting ideas across fields."],
-            ["Journalism & Essays", "Clear writing that preserves nuance while remaining accessible."],
-            ["Software & Tools", "Minimal, purpose-built systems for research, note-taking, and publishing."],
+            ["Digital Tools & Development", "Creating minimal systems and spaces where ideas can take shape and flow."],
+            ["Research & Synthesis", "Tracing arguments, uncovering gaps, and weaving connections across disciplines."],
+            ["Journalism & Essays", "Writing with clarity and care, letting nuance and meaning emerge naturally."],
           ].map(([title, desc]) => (
             <li key={title}>
               <div className="mt-4 max-w-2xl font-medium text-neutral-700 dark:text-neutral-400">{title}</div>
@@ -66,10 +59,9 @@ export default function Home() {
 
         <ul className="space-y-6 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            "Current Read: Infinite Riches by Ben Okri",
-            "Learning about prompt engineering and ",
-            "Building small research-supporting software tools",
-            "Exploring AI-assisted research workflows",
+            "Reading: The Philosopher in the Valley — Alex Karp",
+            "Writing: Short-form reflections and essays",
+            "Studying: How language shapes understanding",
           ].map((item, i) => (
             <li key={i}>
               <div className="mt-4 max-w-2xl font-medium text-neutral-700 dark:text-neutral-400">{item}</div>
