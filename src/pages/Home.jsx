@@ -59,9 +59,9 @@ export default function Home() {
 
         <ul className="space-y-6 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            "Reading: The Philosopher in the Valley — Alex Karp",
-            "Writing: Short-form reflections and essays",
-            "Studying: How language shapes understanding",
+            "Reading: The Philosopher in the Valley by Michael Steinberger.",
+            "Writing: Short-form reflections and essays.",
+            "Studying: How language shapes understanding.",
           ].map((item, i) => (
             <li key={i}>
               <div className="mt-4 max-w-2xl font-medium text-neutral-700 dark:text-neutral-400">{item}</div>
