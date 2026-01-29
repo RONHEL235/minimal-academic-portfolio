@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto px-4 border-t border-neutral-300 dark:border-neutral-700">
         <div className="flex flex-wrap items-center justify-between h-20 text-sm">
           <div className="text-neutral-700 dark:text-neutral-400">
-            © 2026 Ronee Helepi ♥
+            © 2026 Ronee Helepi [Heart emoji]
           </div>
 
           <div className="flex gap-6">
