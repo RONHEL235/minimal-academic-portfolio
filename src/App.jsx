@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Writings from "./pages/Writings";
 import Writing from "./pages/Writing";
-import Graphics from "./pages/Graphics";
 
 export default function App() {
   return (
@@ -20,7 +19,6 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/writings" element={<Writings />} />
             <Route path="/writings/:slug" element={<Writing />} />
-            <Route path="/graphics" element={<Graphics />} />
           </Routes>
         </main>
 

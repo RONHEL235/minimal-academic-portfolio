@@ -9,7 +9,6 @@ export default function Navbar() {
     { name: "Home", to: "/" },
     { name: "Software", to: "/projects" },
     { name: "Words", to: "/writings" },
-    { name: "Graphics", to: "/graphics" },
   ];
 
   return (
