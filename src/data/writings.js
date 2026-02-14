@@ -7,7 +7,7 @@ export const writings = [
   venue: null,
   tags: ["Contemporary Novel"],
   excerpt:
-    "Why are they talking to me?",
+    "Why is the author talking to me?",
   content: `
 
   `,
