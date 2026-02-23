@@ -17,7 +17,7 @@ export default function Home() {
         <div className="w-36 h-36 flex items-center justify-center text-sm
           border border-neutral-300 bg-neutral-200 text-neutral-500
         dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-600">
-          [Insert nice picture]
+          [nice picture of me]
         </div>
       </section>
 
@@ -27,7 +27,7 @@ export default function Home() {
       <section>
         <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">My Approach</h2>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          I move through ideas with care for clarity and flow. I’m drawn to simple forms, thoughtful spaces, and the kind of work that unfolds slowly and with purpose. I value intention over excess, and I find meaning in what is left unsaid as much as in what is shown.
+          I’m drawn to simple forms, thoughtful spaces, and the kind of work that unfolds slowly and with purpose. I value intention over excess, and I find meaning in what is left unsaid as much as in what is shown.
         </p>
       </section>
 

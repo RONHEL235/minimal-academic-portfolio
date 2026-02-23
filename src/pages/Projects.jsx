@@ -8,11 +8,10 @@ export default function Projects() {
       {/* HEADER */}
       <section>
         <h1 className="text-2xl font-semibold text-neutral-700 dark:text-neutral-200">
-          Projects
+          Software
         </h1>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          Bridging the gap between academic study and practical application by
-          building and deploying full-stack software projects.
+          Here is the software okay :/
         </p>
       </section>
 

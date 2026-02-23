@@ -21,7 +21,7 @@ export default function Writings() {
           Research & Writings
         </h1>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          Academic research, long-form writing, and technical commentary.
+          Research, long-form writing, and personal commentary.
         </p>
       </section>
 
