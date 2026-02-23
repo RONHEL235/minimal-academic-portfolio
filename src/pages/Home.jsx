@@ -17,7 +17,7 @@ export default function Home() {
         <div className="w-36 h-36 flex items-center justify-center text-sm
           border border-neutral-300 bg-neutral-200 text-neutral-500
         dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-600">
-          Insert nice picture
+          [Insert nice picture]
         </div>
       </section>
 

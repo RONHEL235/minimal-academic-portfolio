@@ -26,9 +26,6 @@ export default function Navbar() {
             {/* NAME */}
             <div className="text-base font-semibold text-neutral-700 dark:text-neutral-200">
               Ronee Helepi{" "}
-              <span className="text-neutral-500 dark:text-neutral-500">
-                | isawriter
-              </span>
             </div>
 
             {/* DESKTOP */}
