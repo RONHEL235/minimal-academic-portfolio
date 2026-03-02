@@ -4,14 +4,14 @@ import { ExternalLink } from "lucide-react";
 
 export default function Projects() {
   return (
-    <div className="space-y-16">
+    <div className="space-y-10">
       {/* HEADER */}
       <section>
         <h1 className="text-2xl font-semibold text-neutral-700 dark:text-neutral-200">
           Software
         </h1>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          Here is the software okay :/
+          Here is the software.
         </p>
       </section>
 

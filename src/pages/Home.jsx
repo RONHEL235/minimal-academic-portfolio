@@ -9,7 +9,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-            Exploring the space between literature, research, and journalism, guided by software engineering principles that give shape to ideas and clarity to thought, letting structure and curiosity guide the way.
+            Exploring the space between literature, research, and journalism, guided by software engineering principles that give shape to ideas and clarity to thought, letting structure and curiosity lead the way.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function Home() {
       <section>
         <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-200">My Approach</h2>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          I’m drawn to simple forms, thoughtful spaces, and the kind of work that unfolds slowly and with purpose. I value intention over excess, and I find meaning in what is left unsaid as much as in what is shown.
+          I’m drawn to simple forms, thoughtful spaces, and the kind of work that unfolds slowly and with purpose. My value lies in intention and finding meaning in what is left unsaid as much as in what is shown.
         </p>
       </section>
 
@@ -59,7 +59,7 @@ export default function Home() {
 
         <ul className="space-y-6 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            "Reading: The Philosopher in the Valley by Michael Steinberger.",
+            "Reading: Open Water by Caleb Azumah Nelson and Infinite Riches by Ben Okri",
             "Writing: Short-form reflections and essays.",
             "Studying: How language shapes understanding.",
           ].map((item, i) => (
