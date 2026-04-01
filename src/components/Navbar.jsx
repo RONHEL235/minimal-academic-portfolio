@@ -25,7 +25,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20">
             {/* NAME */}
             <div className="text-base font-semibold text-neutral-700 dark:text-neutral-200">
-              ronee.com :/{" "}
+              Ronee.com{" "}
             </div>
 
             {/* DESKTOP */}
