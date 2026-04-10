@@ -4,7 +4,7 @@ export const projects = [
     title: "[Software Under Construction]",
     description:
       "There's something in the water... I promise [Coming Soon]",
-    image: "/projects/French[2].jpg",
+    image: "/projects/French-2.jpg",
     tech: ["React", "Python", "REST APIs"],
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     title: "Instascape",
     description:
       "A full-stack photo sharing application that allows users to upload, edit, and explore images with social-style interactions. Built with a scalable Next.js architecture and styled with Tailwind CSS, the platform integrates backend services for authentication, data storage, and media handling.",
-    image: "/projects/instascape[4].png",
+    image: "/projects/instascape-4.png",
     tech: [
       "React",
       "TypeScript",
