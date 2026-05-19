@@ -5,7 +5,7 @@ export const writings = [
   date: "February 14, 2026 [Saturday]",
   category: "Diary",
   venue: null,
-  tags: ["Inner thots"],
+  tags: ["Love"],
   excerpt:
     "Love is...",
   content: `
@@ -18,9 +18,9 @@ export const writings = [
   date: "March 13, 2026 [Friday]",
   category: "Diary",
   venue: null,
-  tags: ["Inner thots", "Desires"],
+  tags: ["Inner thots"],
   excerpt:
-    "Money and attention",
+    "Irresponsible spender",
   content: `
     [Coming Soon]
   `,
@@ -31,7 +31,7 @@ export const writings = [
   date: "April 01, 2026 [Wednesday]",
   category: "Diary",
   venue: null,
-  tags: ["I'm getting old", "I got time though, I think"],
+  tags: ["I'm getting old"],
   excerpt:
     "To be or not to be",
   content: `
