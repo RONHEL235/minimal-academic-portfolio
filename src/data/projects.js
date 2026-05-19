@@ -12,7 +12,7 @@ export const projects = [
     title: "Portfolio Website",
     description:
       "This portfolio website showcases the work, skills, and journey of Ronee Helepi as a Front-End Developer. It highlights featured projects, technical skills, education, and professional experience while offering an easy way to get in touch.",
-    image: "Portfolio_website.png",
+    image: "/projects/Portfolio_website.png",
     tech: [
       "React & Next.js", "App Router & Server Actions", "TypeScript", "Tailwind CSS", "Framer Motion", "React Email & Resend"
     ],
