@@ -8,6 +8,18 @@ export const projects = [
     tech: ["React", "Python", "REST APIs"],
   },
   {
+    id: "portfolio-website",
+    title: "Portfolio Website",
+    description:
+      "This portfolio website showcases the work, skills, and journey of Ronee Helepi as a Front-End Developer. It highlights featured projects, technical skills, education, and professional experience while offering an easy way to get in touch.",
+    image: "Portfolio_website.png",
+    tech: [
+      "React & Next.js", "App Router & Server Actions", "TypeScript", "Tailwind CSS", "Framer Motion", "React Email & Resend"
+    ],
+    link: "https://portfolio-website-grand-final.vercel.app/",
+    external: true,
+  },
+  {
     id: "instascape",
     title: "Instascape",
     description:
@@ -42,22 +54,6 @@ export const projects = [
     external: true,
   },
   {
-    id: "the-midnight-podcast",
-    title: "The Midnight Podcast",
-    description:
-      "A podcast discovery and listening platform that enables users to browse episodes through filters, stream audio directly in the browser, and save favourite podcasts. The application consumes external podcast APIs and focuses on state management, audio playback handling, and a clean, intuitive interface.",
-    image: "/projects/midnightpodcast.png",
-    tech: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Podcast APIs",
-      "Audio APIs",
-    ],
-    link: "https://the-midnight-podcast-app.vercel.app/",
-    external: true,
-  },
-  {
     id: "book-connect",
     title: "Book Connect",
     description:
@@ -71,6 +67,22 @@ export const projects = [
       "Theme Management",
     ],
     link: "https://book-connect-phi.vercel.app/",
+    external: true,
+  },
+  {
+    id: "the-midnight-podcast",
+    title: "The Midnight Podcast",
+    description:
+      "A podcast discovery and listening platform that enables users to browse episodes through filters, stream audio directly in the browser, and save favourite podcasts. The application consumes external podcast APIs and focuses on state management, audio playback handling, and a clean, intuitive interface.",
+    image: "/projects/midnightpodcast.png",
+    tech: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Podcast APIs",
+      "Audio APIs",
+    ],
+    link: "https://the-midnight-podcast-app.vercel.app/",
     external: true,
   },
 ];

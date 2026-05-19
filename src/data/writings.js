@@ -1,28 +1,41 @@
 export const writings = [
 {
-  slug: "open-water",
-  title: "Grief",
+  slug: "Love",
+  title: "I don't know you but I think I love you already, please love me back.",
   date: "February 14, 2026 [Saturday]",
-  category: "Reads",
+  category: "Diary",
   venue: null,
-  tags: ["Contemporary Novel"],
+  tags: ["Inner thots"],
   excerpt:
-    "Open Water by Caleb Azumah Nelson [Review]",
+    "Love is...",
   content: `
-
+    [Coming Soon]
   `,
 },
 {
-  slug: "infinite-riches",
-  title: "Infinite Riches by Ben Okri [Review]",
-  date: "March 06, 2026 [Friday]",
-  category: "Reads",
+  slug: "Rich",
+  title: "I want to be rich and famous because I love money and attention.",
+  date: "March 13, 2026 [Friday]",
+  category: "Diary",
   venue: null,
-  tags: ["Fictional Novel"],
+  tags: ["Inner thots", "Desires"],
   excerpt:
-    "I don't know, I just wanted to read african literature for once in my lifetime I guess?",
+    "Money and attention",
   content: `
-
+    [Coming Soon]
+  `,
+},
+{
+  slug: "Rich",
+  title: "I still don't know what I want to be when I grow up.",
+  date: "April 01, 2026 [Wednesday]",
+  category: "Diary",
+  venue: null,
+  tags: ["I'm getting old", "I got time though, I think"],
+  excerpt:
+    "To be or not to be",
+  content: `
+    [Coming Soon]
   `,
 }
 ];

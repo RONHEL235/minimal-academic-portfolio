@@ -11,7 +11,7 @@ export default function Projects() {
           Software
         </h1>
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          Here is the software.
+          This is the software.
         </p>
       </section>
 
