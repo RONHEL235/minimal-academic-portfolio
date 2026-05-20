@@ -28,7 +28,7 @@ export const writings = [
 {
   slug: "Rich",
   title: "I still don't know what I want to be when I grow up.",
-  date: "April 01, 2026 [Wednesday]",
+  date: "April 10, 2026 [Friday]",
   category: "Diary",
   venue: null,
   tags: ["I'm getting old"],
