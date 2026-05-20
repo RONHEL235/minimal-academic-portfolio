@@ -20,7 +20,7 @@ export const writings = [
   venue: null,
   tags: ["Inner thots"],
   excerpt:
-    "Irresponsible spender",
+    "I daydream a lot",
   content: `
     [Coming Soon]
   `,
