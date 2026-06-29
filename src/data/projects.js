@@ -8,6 +8,18 @@ export const projects = [
     tech: ["React", "Python", "REST APIs"],
   },
   {
+    id: "studio-meridian",
+    title: "Studio Meridian",
+    description:
+      "A modern, editorial-style website inspired by the minimalistic and cinematic aesthetics. It combines elegant typography, smooth scrolling, subtle animations, and responsive layouts to create an immersive, premium user experience while using original content and design.",
+    image: "/projects/studiomeridian.png",
+    tech: [
+      "React 19", "Vite", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP"
+    ],
+    link: "https://studiomeridian.vercel.app/",
+    external: true,
+  },
+  {
     id: "portfolio-website",
     title: "Portfolio Website",
     description:
