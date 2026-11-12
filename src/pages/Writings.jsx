@@ -35,7 +35,7 @@ export default function Writings() {
               : "border-neutral-400 text-neutral-500"
           }`}
         >
-          Coming Soon! (Smiley Face)
+          Coming Soon! [Smiley Face]
         </button>
 
         {allTags.map((tag) => (
