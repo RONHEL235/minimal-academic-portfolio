@@ -14,10 +14,12 @@ export default function Home() {
         </div>
 
         {/* PROFILE IMAGE */}
-        <div className="w-36 h-36 flex items-center justify-center text-sm
-          border border-neutral-300 bg-neutral-200 text-neutral-500
-        dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-600">
-          [nice picture of me]
+        <div className="w-36 h-36 overflow-hidden border border-neutral-300 dark:border-neutral-700">
+          <img
+            src="/projects/I am competing with myself to be the best.png"
+            alt="My profile picture"
+            className="w-full h-full object-cover"
+          />
         </div>
       </section>
 
