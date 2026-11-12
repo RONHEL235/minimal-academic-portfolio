@@ -39,7 +39,7 @@ export default function Home() {
 
         <ul className="space-y-8 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            ["Digital Tools & Development", "Creating minimal systems and spaces where ideas can take shape and flow."],
+            ["Digital Tools & Development", "Creating minimal Software systems and applications where ideas can take shape and flow."],
             ["Research & Synthesis", "Tracing arguments, uncovering gaps, and weaving connections across disciplines."],
             ["Journalism & Essays", "Writing with clarity and care, letting nuance and meaning emerge naturally."],
           ].map(([title, desc]) => (
@@ -59,9 +59,10 @@ export default function Home() {
 
         <ul className="space-y-6 mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           {[
-            "Reading: Open Water by Caleb Azumah Nelson and Infinite Riches by Ben Okri",
+            "Final-Year IT Student: Exploring software engineering, backend development, and the design of intelligent systems",
+            "Reading: White Teeth by Zadie Smith",
             "Writing: Short-form reflections and essays.",
-            "Studying: How language shapes understanding.",
+            "Studying: How language shapes understanding, how technology influences human interaction, and how software systems transform ideas into practical solutions.",
           ].map((item, i) => (
             <li key={i}>
               <div className="mt-4 max-w-2xl font-medium text-neutral-700 dark:text-neutral-400">{item}</div>
