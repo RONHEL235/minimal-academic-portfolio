@@ -12,9 +12,17 @@ export default function Projects() {
           Software
         </h1>
 
-        <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          This is the software.
-        </p>
+        {/* LITERARY QUOTATION */}
+        <div className="mt-5 space-y-2">
+          <h2 className="text-lg md:text-xl font-normal italic text-neutral-700 dark:text-neutral-300">
+            “Imagination is the proto-reality.”
+          </h2>
+
+          <p className="text-sm text-neutral-500 dark:text-neutral-400">
+            — Ben Okri,{" "}
+            <span className="italic">A Way of Being Free</span> (1997)
+          </p>
+        </div>
       </section>
 
       <div className="border-t border-neutral-300 dark:border-neutral-700" />
