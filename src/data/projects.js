@@ -1,12 +1,22 @@
 export const projects = [
-  {
-    id: "still",
-    title: "[Software Under Construction]",
-    description:
-      "There's something in the water... I promise [Coming Soon]",
-    image: "/projects/French-2.jpg",
-    tech: ["React", "Python", "REST APIs"],
-  },
+{
+  id: "safesense",
+  title: "SafeSense",
+  description:
+    "An intelligent community-based crime reporting and emergency response platform designed to improve public safety in South Africa. SafeSense enables users to report incidents, explore interactive crime maps, activate SOS alerts, and receive community updates. Built with Flutter and Supabase, it integrates real-time data, geolocation services, and dedicated dashboards for administrators and SAPS officers.",
+  image: "/projects/SafesSense_App.png",
+  tech: [
+    "Flutter",
+    "Dart",
+    "Supabase",
+    "PostgreSQL",
+    "Firebase Hosting",
+    "REST APIs",
+    "Git & GitHub",
+  ],
+  link: "https://safesense-staging.web.app/",
+  external: true,
+},
   {
     id: "studio-meridian",
     title: "Studio Meridian",
