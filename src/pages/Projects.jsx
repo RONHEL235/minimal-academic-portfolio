@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { projects } from "../data/projects";
 import { ExternalLink } from "lucide-react";
@@ -10,6 +11,7 @@ export default function Projects() {
         <h1 className="text-2xl font-semibold text-neutral-700 dark:text-neutral-200">
           Software
         </h1>
+
         <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
           This is the software.
         </p>
@@ -21,13 +23,16 @@ export default function Projects() {
       <section className="space-y-10">
         {projects.map((project) => {
           const Wrapper = project.external ? "a" : Link;
+
           const wrapperProps = project.external
             ? {
                 href: project.link,
                 target: "_blank",
                 rel: "noopener noreferrer",
               }
-            : { to: project.link };
+            : {
+                to: project.link,
+              };
 
           return (
             <Wrapper
@@ -50,29 +55,37 @@ export default function Projects() {
                 {/* IMAGE */}
                 <div
                   className="
-                    w-full md:w-64 h-40
+                    w-full md:w-64 h-56 md:h-40
                     border border-neutral-300 dark:border-neutral-700
                     bg-neutral-200 dark:bg-neutral-900
                     overflow-hidden
                     shrink-0
+                    flex items-center justify-center
                   "
                 >
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="
+                      w-full h-full
+                      object-contain
+                    "
+                    loading="lazy"
                   />
                 </div>
 
                 {/* CONTENT */}
                 <div className="flex-1 flex flex-col gap-3 -mt-1 md:-mt-0.5">
                   <h2 className="flex items-center gap-2 text-lg md:text-xl font-medium text-neutral-700 dark:text-neutral-200 leading-tight">
-                  {project.title}
-                  {project.external && (
-                  <ExternalLink size={16} className="text-neutral-400 shrink-0" />
-                  )}
-                  </h2>
+                    {project.title}
 
+                    {project.external && (
+                      <ExternalLink
+                        size={16}
+                        className="text-neutral-400 shrink-0"
+                      />
+                    )}
+                  </h2>
 
                   <p className="max-w-2xl text-sm md:text-base text-neutral-700 dark:text-neutral-400">
                     {project.description}
