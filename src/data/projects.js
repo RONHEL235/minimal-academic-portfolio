@@ -4,7 +4,7 @@ export const projects = [
   title: "SafeSense",
   description:
     "An intelligent community-based crime reporting and emergency response platform designed to improve public safety in South Africa. SafeSense enables users to report incidents, explore interactive crime maps, activate SOS alerts, and receive community updates. Built with Flutter and Supabase, it integrates real-time data, geolocation services, and dedicated dashboards for administrators and SAPS officers.",
-  image: "/projects/SafesSense_App.png",
+  image: "/projects/SafeSense_App.png",
   tech: [
     "Flutter",
     "Dart",
