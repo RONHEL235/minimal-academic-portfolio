@@ -55,27 +55,25 @@ export default function Projects() {
                 {/* IMAGE */}
                 <div
                   className="
-                    w-full md:w-64 h-56 md:h-40
+                    w-full md:w-64
                     border border-neutral-300 dark:border-neutral-700
                     bg-neutral-200 dark:bg-neutral-900
                     overflow-hidden
                     shrink-0
-                    flex items-center justify-center
+                    rounded-md
                   "
                 >
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="
-                      w-full h-full
-                      object-contain
-                    "
+                    className="block w-full h-auto"
                     loading="lazy"
                   />
                 </div>
 
                 {/* CONTENT */}
                 <div className="flex-1 flex flex-col gap-3 -mt-1 md:-mt-0.5">
+                  {/* PROJECT TITLE */}
                   <h2 className="flex items-center gap-2 text-lg md:text-xl font-medium text-neutral-700 dark:text-neutral-200 leading-tight">
                     {project.title}
 
@@ -87,6 +85,7 @@ export default function Projects() {
                     )}
                   </h2>
 
+                  {/* PROJECT DESCRIPTION */}
                   <p className="max-w-2xl text-sm md:text-base text-neutral-700 dark:text-neutral-400">
                     {project.description}
                   </p>
