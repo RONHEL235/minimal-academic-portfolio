@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { writings } from "../data/writings";
@@ -14,16 +15,28 @@ export default function Writings() {
     : writings;
 
   return (
-    <div className="space-y-16">
+    <div className="space-y-10">
       {/* HEADER */}
       <section>
         <h1 className="text-2xl font-semibold text-neutral-700 dark:text-neutral-200">
           Research & Writings
         </h1>
-        <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-400">
-          Research, long-form writing, and personal commentary.
-        </p>
+
+        {/* LITERARY QUOTATION */}
+        <div className="mt-5 space-y-2">
+          <h2 className="text-lg md:text-xl font-normal italic text-neutral-700 dark:text-neutral-300">
+            “Until the lions have their own historians, the history
+            of the hunt will always glorify the hunter.”
+          </h2>
+
+          <p className="text-sm text-neutral-500 dark:text-neutral-400">
+            — Chinua Achebe
+          </p>
+        </div>
       </section>
+
+      {/* GREY DIVIDER */}
+      <div className="border-t border-neutral-300 dark:border-neutral-700" />
 
       {/* TAG FILTER */}
       <section className="flex flex-wrap gap-2">
@@ -35,7 +48,7 @@ export default function Writings() {
               : "border-neutral-400 text-neutral-500"
           }`}
         >
-          Coming Soon! [Smiley Face]
+          Coming Soon! 😊
         </button>
 
         {allTags.map((tag) => (
@@ -53,11 +66,13 @@ export default function Writings() {
         ))}
       </section>
 
-      {/* LIST */}
+      {/* WRITINGS LIST */}
       <section className="space-y-10">
         {filteredWritings.map((writing) => (
           <article key={writing.slug} className="space-y-3">
-            <p className="text-sm text-neutral-500">{writing.date}</p>
+            <p className="text-sm text-neutral-500">
+              {writing.date}
+            </p>
 
             <h2 className="text-lg font-medium text-neutral-800 dark:text-neutral-200">
               <Link

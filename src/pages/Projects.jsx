@@ -50,7 +50,8 @@ export default function Projects() {
             >
               <div
                 className="
-                  flex flex-col md:flex-row items-start
+                  flex flex-col md:flex-row
+                  items-start
                   gap-6 md:gap-8
                   p-4 md:p-6
                   rounded-lg
@@ -80,9 +81,18 @@ export default function Projects() {
                 </div>
 
                 {/* CONTENT */}
-                <div className="flex-1 flex flex-col gap-3 -mt-1 md:-mt-0.5">
+                <div className="flex-1 min-w-0 flex flex-col gap-3 mt-0">
                   {/* PROJECT TITLE */}
-                  <h2 className="flex items-center gap-2 text-lg md:text-xl font-medium text-neutral-700 dark:text-neutral-200 leading-tight">
+                  <h2
+                    className="
+                      flex items-center gap-2
+                      text-lg md:text-xl
+                      font-medium
+                      text-neutral-700 dark:text-neutral-200
+                      leading-tight
+                      m-0
+                    "
+                  >
                     {project.title}
 
                     {project.external && (
