@@ -2,12 +2,12 @@
 export default function Footer() {
   const links = [
     {
-      label: "GitHub",
-      href: "https://github.com/RONHEL235",
-    },
-    {
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/ronee-helepi-5917b244a",
+    },
+    {
+      label: "GitHub",
+      href: "https://github.com/RONHEL235",
     },
     {
       label: "Substack",
@@ -32,7 +32,11 @@ export default function Footer() {
                 href={href}
                 target={label !== "Email" ? "_blank" : undefined}
                 rel={label !== "Email" ? "noopener noreferrer" : undefined}
-                className="text-neutral-700 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-200"
+                className="
+                  text-neutral-700 hover:text-neutral-900
+                  dark:text-neutral-400 dark:hover:text-neutral-200
+                  transition-colors
+                "
               >
                 {label}
               </a>

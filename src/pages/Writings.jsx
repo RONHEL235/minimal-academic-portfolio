@@ -25,12 +25,15 @@ export default function Writings() {
         {/* LITERARY QUOTATION */}
         <div className="mt-5 space-y-2">
           <h2 className="text-lg md:text-xl font-normal italic text-neutral-700 dark:text-neutral-300">
-            “Until the lions have their own historians, the history
-            of the hunt will always glorify the hunter.”
+            “The limits of my language mean the limits of my world.”
           </h2>
 
           <p className="text-sm text-neutral-500 dark:text-neutral-400">
-            — Chinua Achebe
+            — Ludwig Wittgenstein,{" "}
+            <span className="italic">
+              Tractatus Logico-Philosophicus
+            </span>{" "}
+            (1921)
           </p>
         </div>
       </section>
@@ -69,11 +72,16 @@ export default function Writings() {
       {/* WRITINGS LIST */}
       <section className="space-y-10">
         {filteredWritings.map((writing) => (
-          <article key={writing.slug} className="space-y-3">
+          <article
+            key={writing.slug}
+            className="space-y-3"
+          >
+            {/* DATE */}
             <p className="text-sm text-neutral-500">
               {writing.date}
             </p>
 
+            {/* TITLE */}
             <h2 className="text-lg font-medium text-neutral-800 dark:text-neutral-200">
               <Link
                 to={`/writings/${writing.slug}`}
@@ -83,15 +91,23 @@ export default function Writings() {
               </Link>
             </h2>
 
+            {/* EXCERPT */}
             <p className="max-w-3xl text-neutral-700 dark:text-neutral-400">
               {writing.excerpt}
             </p>
 
+            {/* TAGS */}
             <div className="flex flex-wrap gap-2">
               {writing.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 text-sm border border-neutral-700 rounded-md text-neutral-500"
+                  className="
+                    px-3 py-1
+                    text-sm
+                    border border-neutral-700
+                    rounded-md
+                    text-neutral-500
+                  "
                 >
                   {tag}
                 </span>
