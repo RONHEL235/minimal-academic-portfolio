@@ -1,4 +1,6 @@
 
+import { Heart } from "lucide-react";
+
 export default function Footer() {
   const links = [
     {
@@ -44,8 +46,15 @@ export default function Footer() {
           </div>
 
           {/* COPYRIGHT */}
-          <div className="text-neutral-500 dark:text-neutral-500">
-            © 2026 Ronee Helepi ❤️
+          <div className="flex items-center justify-center gap-1.5 text-neutral-500 dark:text-neutral-500">
+            <span>© 2026 Ronee Helepi</span>
+
+            <Heart
+              size={16}
+              strokeWidth={1.75}
+              className="fill-current"
+              aria-label="Heart"
+            />
           </div>
 
         </div>

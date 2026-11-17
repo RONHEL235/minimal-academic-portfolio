@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Smile } from "lucide-react";
 import { writings } from "../data/writings";
 
 export default function Writings() {
@@ -45,13 +46,23 @@ export default function Writings() {
       <section className="flex flex-wrap gap-2">
         <button
           onClick={() => setActiveTag(null)}
-          className={`px-3 py-1 text-sm border rounded-md ${
-            !activeTag
-              ? "border-neutral-900 dark:border-neutral-200 text-neutral-900 dark:text-neutral-200"
-              : "border-neutral-400 text-neutral-500"
-          }`}
+          className={`
+            flex items-center gap-2
+            px-3 py-1 text-sm border rounded-md
+            ${
+              !activeTag
+                ? "border-neutral-900 dark:border-neutral-200 text-neutral-900 dark:text-neutral-200"
+                : "border-neutral-400 text-neutral-500"
+            }
+          `}
         >
-          Coming Soon! 😊
+          Coming Soon!
+
+          <Smile
+            size={16}
+            strokeWidth={1.75}
+            aria-hidden="true"
+          />
         </button>
 
         {allTags.map((tag) => (
