@@ -26,15 +26,12 @@ export default function Writings() {
         {/* LITERARY QUOTATION */}
         <div className="mt-5 space-y-2">
           <h2 className="text-lg md:text-xl font-normal italic text-neutral-700 dark:text-neutral-300">
-            “The limits of my language mean the limits of my world.”
+            “I actually need to start writing stuff.”
           </h2>
 
           <p className="text-sm text-neutral-500 dark:text-neutral-400">
-            — Ludwig Wittgenstein,{" "}
-            <span className="italic">
-              Tractatus Logico-Philosophicus
-            </span>{" "}
-            (1921)
+            — Ronee Helepi,{" "}
+            (2026)
           </p>
         </div>
       </section>
